@@ -645,8 +645,9 @@ j{
     transition: .3s;
 }
 
-#logo{
+.logo{
     border-radius: 100%;
+    width: 70px;
 }
 
 
