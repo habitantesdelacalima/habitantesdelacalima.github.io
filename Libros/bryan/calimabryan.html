@@ -45,119 +45,534 @@
     </header>
 
         <!-- Arte -->
+    <main>
+        <!-- Se crean dos botones en la misma ubicación, así uno podrá reemplazar al otro con el CSS y el JS -->
+        <div class="about_main container">
+            <article class="about_icons"><button class="cta" id="boton_sequia" onclick="visualSequia()">Sequía</button>
+                <button class="cta" id="boton_sequia2" onclick="ciegoSequia()">Sequía</button>
+            </article>
+
+            <article class="about_icons"><button class="cta" id="boton_incendio" onclick="visualIncendio()">Incendio</button>
+                <button class="cta" id="boton_incendio2" onclick="ciegoIncendio()">Incendio</button>
+            </article>
+            <article class="about_icons"><button class="cta" id="boton_cenizas" onclick="visualCenizas()">Cenizas</button>
+                <button class="cta" id="boton_cenizas2" onclick="ciegoCenizas()">Cenizas</button>
+            </article>
+        </div>
+
         
-        <button class="sequia">Sequía</button>
-        <section class="poemitas">
-            <div class="poemitas_container">
-                <section class="poemitas_container">
-                    <article class="poemitas_padding">
-                        <div class="poemitas_answer">
-                            <h3 class="poemitas_title">Otoño
-                                <span class="poemitas_arrow">
-                                    <img src="/Images/arrow.svg" alt="" class="poemitas_img">
-                                </span>
-                            </h3>
-                            <p class="poemitas_show">Nací de un sentimiento en ruinas<br>
-                                en el crujir de las cenizas<br>
-                                Lejos de las lágrimas del cielo<br>
-                                y las plegarias de la tierra<br>
-                                Y es aquí,<br>
-                                donde vienen a parir<br>
-                                las ramas<br>
-                                a sus hijos muertos</p>
-                        </div>
-                    </article>
-                    <article class="poemitas_padding">
-                        <div class="poemitas_answer">
-                            <h3 class="poemitas_title">Manifiesto
-                                <span class="poemitas_arrow">
-                                    <img src="/Images/arrow.svg" alt="" class="poemitas_img">
-                                </span>
-                            </h3>
-                            <p class="poemitas_show">Allá, dónde los habitantes recuerdan<br>
-                                el cielo antes del humo,<br>
-                                se escapan trazos <br>
-                                de la mariposa que dibujé</p>
-                        </div>
-                    </article>
-                    <article class="poemitas_padding">
-                        <div class="poemitas_answer">
-                            <h3 class="poemitas_title">Vampiro
-                                <span class="poemitas_arrow">
-                                    <img src="/Images/arrow.svg" alt="" class="poemitas_img">
-                                </span>
-                            </h3>
-                            <p class="poemitas_show"><strong>I</strong><br>
-                                Algo le he robado al viento,<br>
-                                una idea quizás,<br>
-                                o sus propias huellas<br>
-                                Se arrastran mis pupilas<br>
-                                pidiendo una imagen que valga la pena<br>
-                                o las lágrimas<br>
-                                Los dientes de la luna están aquí<br>
-                                fijos sobre mi cuello<br>
-                                El infierno abierto como una tela rasgada<br>
-                                desnuda la soledad de mi balcón<br>
-                                Un grillo trata de alcanzar la luna<br>
-                                pero el humo de la ciudad lo retiene<br>
-                                Una gárgola vuela sobre mi techo,<br>
-                                trae una víctima de latidos vastos<br>
-                                Sus labios son dañinos,<br>
-                                fiebres tropicales enlazados con sal<br>
-                                «¡Priscila!», grita la gárgola,<br>
-                                se espanta por saberme en guerra<br><br>
+        <div id="sequia">
+            <section class="poemitas">
+                <div class="poemitas_container">
+                    <section class="poemitas_container">
+                        <article class="poemitas_padding">
+                            <div class="poemitas_answer">
+                                <h3 class="poemitas_title">Otoño
+                                    <span class="poemitas_arrow">
+                                        <img src="/Images/arrow.svg" alt="" class="poemitas_img">
+                                    </span>
+                                </h3>
+                                <p class="poemitas_show">Nací de un sentimiento en ruinas<br>
+                                    en el crujir de las cenizas<br>
+                                    Lejos de las lágrimas del cielo<br>
+                                    y las plegarias de la tierra<br>
+                                    Y es aquí,<br>
+                                    donde vienen a parir<br>
+                                    las ramas<br>
+                                    a sus hijos muertos</p>
+                            </div>
+                        </article>
+                        <article class="poemitas_padding">
+                            <div class="poemitas_answer">
+                                <h3 class="poemitas_title">Manifiesto
+                                    <span class="poemitas_arrow">
+                                        <img src="/Images/arrow.svg" alt="" class="poemitas_img">
+                                    </span>
+                                </h3>
+                                <p class="poemitas_show">Allá, dónde los habitantes recuerdan<br>
+                                    el cielo antes del humo,<br>
+                                    se escapan trazos <br>
+                                    de la mariposa que dibujé</p>
+                            </div>
+                        </article>
+                        <article class="poemitas_padding">
+                            <div class="poemitas_answer">
+                                <h3 class="poemitas_title">Cigarros
+                                    <span class="poemitas_arrow">
+                                        <img src="/Images/arrow.svg" alt="" class="poemitas_img">
+                                    </span>
+                                </h3>
+                                <p class="poemitas_show">Nos persiguen  <br>
+                                    las cenizas del tiempo,<br>
+                                    somos cigarros</p>
+                            </div>
+                        </article>
+                        <article class="poemitas_padding">
+                            <div class="poemitas_answer">
+                                <h3 class="poemitas_title">Andina
+                                    <span class="poemitas_arrow">
+                                        <img src="/Images/arrow.svg" alt="" class="poemitas_img">
+                                    </span>
+                                </h3>
+                                <p class="poemitas_show">Volverás a verme<br>
+                                    cuando mis lunares sean lunas en Neptuno<br>
+                                    Contaremos la última estrella<br>
+                                    para olvidar las fronteras<br>
+                                    Corre la mandarina<br>
+                                    para evitar el mordisco del fauno<br>
+                                    Canta la cigarra<br>
+                                    para calmar su sed<br>
+                                    Llueve en los Andes<br>
+                                    una vez más<br>
+                                    por los poetas<br>
+                                    por las montañas<br>
+                                    por los momentos que vive tu risa<br>
+                                    por el sol que no se cansa de vernos girar<br>
+                                    Un ocaso más<br>
+                                    «Te volveré a ver», dijiste<br>
+                                    Cuando la luna pinte<br>
+                                    una fantasía en sus cráteres<br>
+                                    y yo haya olvidado<br>
+                                    que el mar no calma la sed<br>
+                                    Cuando ignore<br>
+                                    lo amargo de una mano<br>
+                                    bailando en el aire<br>
+                                    y tú puedas escribir sin llorar<br>
+                                    Volveré cuando mueran los caballos<br>
+                                    por tu afición a morir<br>
+                                    una balada<br>
+                                    Escribiremos juntos<br>
+                                    la historia de los ríos<br>
+                                    desembocando en un beso al aire<br>
+                                    Se van las estrellas de las montañas<br><br>
+                                    <em>Leer de abajo hacia arriba</em></p>
+                                   
+                            </div>
+                        </article>
+                        <article class="poemitas_padding">
+                            <div class="poemitas_answer">
+                                <h3 class="poemitas_title">Vampiro
+                                    <span class="poemitas_arrow">
+                                        <img src="/Images/arrow.svg" alt="" class="poemitas_img">
+                                    </span>
+                                </h3>
+                                <p class="poemitas_show"><strong>I</strong><br>
+                                    Algo le he robado al viento,<br>
+                                    una idea quizás,<br>
+                                    o sus propias huellas<br>
+                                    Se arrastran mis pupilas<br>
+                                    pidiendo una imagen que valga la pena<br>
+                                    o las lágrimas<br>
+                                    Los dientes de la luna están aquí<br>
+                                    fijos sobre mi cuello<br>
+                                    El infierno abierto como una tela rasgada<br>
+                                    desnuda la soledad de mi balcón<br>
+                                    Un grillo trata de alcanzar la luna<br>
+                                    pero el humo de la ciudad lo retiene<br>
+                                    Una gárgola vuela sobre mi techo,<br>
+                                    trae una víctima de latidos vastos<br>
+                                    Sus labios son dañinos,<br>
+                                    fiebres tropicales enlazados con sal<br>
+                                    «¡Priscila!», grita la gárgola,<br>
+                                    se espanta por saberme en guerra<br><br>
 
-                                <strong>II</strong><br>
-                                Amar es un acto suicida<br>
-                                Escribo «amor» como un jeroglífico<br>
-                                en las cavernas de mis costillas<br>
-                                Se ama como se vive,<br>
-                                por eso el amor se duerme en pasteles de miel<br>
-                                y despierta cuando sana cada mordida<br>
-                                Se ama como se vive,<br>
-                                por eso el amor puede durar una exhalación profunda<br>
-                                o el viento en una montaña<br>
-                                Allá, donde caen las piezas del cielo,<br>
-                                donde se pide a una diosa<br>
-                                un susurro de mirra,<br>
-                                injertos de sentimientos se saborean<br>
-                                desfallecientes,<br>
-                                erróneos, crédulos<br>
-                                Vino a nacer la uva<br>
-                                en los labios de Priscila<br>
-                                Y su vino me invita<br>
-                                a recitar el verso de la no vida,<br>
-                                novicia en las caricias del viento<br>
-                                Espada del vicio en mi pecho,<br>
-                                visión, temblor,<br>
-                                sensación que derrama una rosa<br>
-                                y vence al vampiro en su propio averno<br><br>
+                                    <strong>II</strong><br>
+                                    Amar es un acto suicida<br>
+                                    Escribo «amor» como un jeroglífico<br>
+                                    en las cavernas de mis costillas<br>
+                                    Se ama como se vive,<br>
+                                    por eso el amor se duerme en pasteles de miel<br>
+                                    y despierta cuando sana cada mordida<br>
+                                    Se ama como se vive,<br>
+                                    por eso el amor puede durar una exhalación profunda<br>
+                                    o el viento en una montaña<br>
+                                    Allá, donde caen las piezas del cielo,<br>
+                                    donde se pide a una diosa<br>
+                                    un susurro de mirra,<br>
+                                    injertos de sentimientos se saborean<br>
+                                    desfallecientes,<br>
+                                    erróneos, crédulos<br>
+                                    Vino a nacer la uva<br>
+                                    en los labios de Priscila<br>
+                                    Y su vino me invita<br>
+                                    a recitar el verso de la no vida,<br>
+                                    novicia en las caricias del viento<br>
+                                    Espada del vicio en mi pecho,<br>
+                                    visión, temblor,<br>
+                                    sensación que derrama una rosa<br>
+                                    y vence al vampiro en su propio averno<br><br>
 
-                                <strong>III</strong><br>
-                                Lo siento, Priscila,<br>
-                                no quise acudir a tu ventana,<br>
-                                nadie merece una condena antes de pecar<br>
-                                Priscila, yo moriré cuando la luna<br>
-                                sea absorbida por el espanto de los cometas<br>
-                                Cuando el grito de la noche<br>
-                                sea traducido por los cosmonautas,<br>
-                                conoceremos el mar<br>
-                                y el Kraken dejará sus pesadillas en la arena<br>
-                                Ahí despertaré, Priscila,<br>
-                                sobre la arena,<br>
-                                reclamaré tu cuello para vivir,<br>
-                                reclamaré tu cuello como altar<br>
-                                y saltaré de él para amarte por primera vez</p>
-                        </div>
-                    </article>
-                </section>
+                                    <strong>III</strong><br>
+                                    Lo siento, Priscila,<br>
+                                    no quise acudir a tu ventana,<br>
+                                    nadie merece una condena antes de pecar<br>
+                                    Priscila, yo moriré cuando la luna<br>
+                                    sea absorbida por el espanto de los cometas<br>
+                                    Cuando el grito de la noche<br>
+                                    sea traducido por los cosmonautas,<br>
+                                    conoceremos el mar<br>
+                                    y el Kraken dejará sus pesadillas en la arena<br>
+                                    Ahí despertaré, Priscila,<br>
+                                    sobre la arena,<br>
+                                    reclamaré tu cuello para vivir,<br>
+                                    reclamaré tu cuello como altar<br>
+                                    y saltaré de él para amarte por primera vez</p>
+                            </div>
+                        </article>
+                    </section>
+                </div>
+            </section>
+        </div>
+        <div id="incendio">
+            <section class="poemitas">
+                <div class="poemitas_container">
+                    <section class="poemitas_container">
+                        <article class="poemitas_padding">
+                            <div class="poemitas_answer">
+                                <h3 class="poemitas_title">Enano en el frasco
+                                    <span class="poemitas_arrow">
+                                        <img src="/Images/arrow.svg" alt="" class="poemitas_img">
+                                    </span>
+                                </h3>
+                                <p class="poemitas_show">Y se hizo el dolor<br>
+                                    cristal de la experiencia<br><br>
+                                    
+                                    Recuerdo más de lo que he vivido<br>
+                                    Cuando nació la sequía,<br>
+                                    cuando las piedras fueron esculpidas<br>
+                                    dejando su corazón a las gárgolas<br><br>
+                                    
+                                    Y se hizo el dolor<br>
+                                    Y golpeé el vidrio hasta que mi cuerpo se hizo real<br><br>
+                                    
+                                    Despertaron antiguos seres<br>
+                                    del tiempo antes del tiempo<br>
+                                    de precipicios y cumbres infinitas<br>
+                                    Me indicaron senderos fríos<br>
+                                    me dieron un nombre gris<br>
+                                    lúgubre como la noche <br><br>
+                                    
+                                    "Algún día conocerás las tres formas de arder"<br>
+                                    y volaron al mar de estrellas<br>
+                                    
+                                    Crecieron mis uñas<br>
+                                    mi cabello y mis miedos<br>
+                                    Añorando las noches de tormenta<br>
+                                    para ver ese primer incendio<br>
+                                    de los eones que precedieron al hombre<br><br>
+                                    
+                                    Cada noche es una jaula nueva<br>
+                                    en la que crío pesadillas<br><br>
+                                    
+                                    Desde el bosque llegaron ellos,<br>
+                                    seres de un alma gris<br>
+                                    cómo mi nombre<br>
+                                    Temblaban conmigo<br>
+                                    cuando el terror alcanzaba nuestro hogar<br>
+                                    Aprendimos a hablar un mismo lenguaje<br>
+                                    y me llamaron Nacido de la sombra,<br>
+                                    hijo del cristal,<br>
+                                    homúnculo<br><br>
+                                    
+                                    Conocimos el dolor<br>
+                                    Sobre el reposo de la tierra<br>
+                                    crecieron flores con el olor de la claustrofobia<br>
+                                    En sus lápidas,<br>
+                                    reposan mis delirios:<br><br>
+                                    
+                                    <em>"Los hombres inventan sus sueños<br>
+                                    y se encierran en frascos<br>
+                                    Los dioses buscan hacerse inmortales<br>
+                                    en lo efímero de un milagro"</em>
+                                </p>
+                            </div>
+                        </article>
+                        <article class="poemitas_padding">
+                            <div class="poemitas_answer">
+                                <h3 class="poemitas_title">8
+                                    <span class="poemitas_arrow">
+                                        <img src="/Images/arrow.svg" alt="" class="poemitas_img">
+                                    </span>
+                                </h3>
+                                <p class="poemitas_show">ante el dios que tropieza con las nubes<br>
+                                    tumbaron sus rodillas<br>
+                                    Montañas oscuras<br>
+                                    donde estuvieron antiguos templos<br>
+                                    Esperan a la noche<br>
+                                    por las estrellas que no les protegen<br>
+                                    Toman de mis manos<br>
+                                    ocho pétalos de Calima<br>
+                                    Camino por<br>
+                                    la estela del pasado<br>
+                                    Sequía, página incompleta<br>
+                                    de sombras ambiguas<br>
+                                    La primera llama<br>
+                                    cayó a sus rodillas<br>
+                                    La deidad<br>
+                                    una tenue tristeza<br><br>
 
-            </div>
-        </section>
+                                    <em>Leer de abajo hacia arriba</em></p>
+                            </div>
+                        </article>
+                        <article class="poemitas_padding">
+                            <div class="poemitas_answer">
+                                <h3 class="poemitas_title">Presente
+                                    <span class="poemitas_arrow">
+                                        <img src="/Images/arrow.svg" alt="" class="poemitas_img">
+                                    </span>
+                                </h3>
+                                <p class="poemitas_show">Los cuellos son frágiles ante el beso,<br>
+                                    ante el abrazo,<br>
+                                    ante la puñalada y el calor de la bebida<br>
+                                    Ahí reside el presente,<br>
+                                    en el cuello del reloj,<br>
+                                    en el cuello de la botella<br>
+                                    que apuñala al hombre<br>
+                                    en la acera</p>
+                            </div>
+                        </article>
+                        <article class="poemitas_padding">
+                            <div class="poemitas_answer">
+                                <h3 class="poemitas_title">Primer pecado
+                                    <span class="poemitas_arrow">
+                                        <img src="/Images/arrow.svg" alt="" class="poemitas_img">
+                                    </span>
+                                </h3>
+                                <p class="poemitas_show">¿Quién está en tu sombra?<br>
+                                    El quebranto en la habitación te arropa<br>
+                                    Le diste de beber al ave de piedra<br><br>
+                                    
+                                    Las miradas tienen el valor del tiempo<br>
+                                    y el precio de la necesidad<br><br>
+                                    
+                                    Tus ojos, pinturas de naturaleza muerta,<br>
+                                    festín de la gárgola</p>
+                            </div>
+                        </article>
+                    </section>
+                </div>
+            </section>
+        </div>
+        <div id="cenizas">
+            <section class="poemitas">
+                <div class="poemitas_container">
+                    <section class="poemitas_container">
+                        <article class="poemitas_padding">
+                            <div class="poemitas_answer">
+                                <h3 class="poemitas_title">Bosque ceniza
+                                    <span class="poemitas_arrow">
+                                        <img src="/Images/arrow.svg" alt="" class="poemitas_img">
+                                    </span>
+                                </h3>
+                                <p class="poemitas_show">El último crujir del bosque<br>
+                                    Aún el cielo nos trae pavesas,<br>
+                                    hojas grises se juntan en las ramas<br><br>
+                                     
+                                    Aquellos que se oponían al horizonte<br>
+                                    son parte de él<br>
+                                    elegías al vacío<br>
+                                    Algunos ojos persisten al tiempo<br>
+                                    abstraídos al dolor<br><br>
+                                    
+                                    Tropiezo con los restos de una lápida<br>
+                                    <em>Los hombres inventan sus dioses<br>
+                                    y se encierran en lo efímero</em><br><br>
+                                     
+                                    Es aquí, dónde una vez vivimos<br>
+                                    entre el sueño y el silencio<br>
+                                    dónde el sonido del agua nos despertaba<br>
+                                    y unas extrañas rocas lejanas<br>
+                                    se frotaban para imitar el mar<br><br>
+                                     
+                                    Es aquí, dónde los antiguos reyes<br>
+                                    aprendieron a temer<br>
+                                    Es aquí, dónde los búhos de la corte oscura<br>
+                                    vieron los cuerpos<br>
+                                    convertirse en la ceniza de los mausoleos</p>
+                            </div>
+                        </article>
+                        <article class="poemitas_padding">
+                            <div class="poemitas_answer">
+                                <h3 class="poemitas_title">Piedras del descanso
+                                    <span class="poemitas_arrow">
+                                        <img src="/Images/arrow.svg" alt="" class="poemitas_img">
+                                    </span>
+                                </h3>
+                                <p class="poemitas_show">El día de hoy es la ceniza del pasado<br>
+                                    Más allá del jardín sin luz,<br>
+                                    sobre la última piedra del descanso,<br>
+                                    su rostro se levanta<br>
+                                    aún temblando por una fiebre de eones antes de esta era<br><br>
+                                    
+                                    De su boca<br>
+                                    dunas y coágulos de oasis<br>
+                                    asemejan el incendio de su cuerpo,<br>
+                                    y entre el tic tac de sus dientes,<br>
+                                    una áspera brisa borbotea <br><br>
+                                    
+                                    <em>Caminamos sobre la arena<br>
+                                    siempre surgiendo de ella</em><br><br>
+                                    
+                                    Los delirios de un ser inmortal<br>
+                                    son flores marchitas a espera del viento<br>
+                                    A los lados de su nariz<br>
+                                    dos escamas de piedra simulan ser párpados<br>
+                                    pidiendo auxilio en las inexpugnables mareas del duelo<br><br>
+                                    
+                                    <em>Los cuellos son débiles ante el presente</em><br><br>
+                                    
+                                    <em>Ojalá supieran los eucaliptos<br>
+                                    que el fuego nos ha quitado el deseo</em><br><br>
+                                    
+                                    <em>La Bestia no sabe morir,<br>
+                                    es este el tiempo que le sobra a la dicentra</em><br><br>
+                                    
+                                    Levanta su cabeza,<br>
+                                    en espera de un beso de la lluvia<br>
+                                    Y es ahora que veo sus ojos,<br>
+                                    posados sobre su palma,<br>
+                                    y es ahora que recuerdo su nombre<br>
+                                    Los nacidos de la sombra<br>
+                                    se apiadan entre sí<br>
+                                    Sus delirios y mi llanto,<br>
+                                    ha sido mi gárgola la última en besarlo<br>
+                                    ha sido su veneno…<br><br>
+                                    
+                                    <em>El presente es el incendio<br>
+                                    con el que lidiarás mañana</em><br><br>
+                                    
+                                    Mis manos sostienen el cristal<br>
+                                    del que provienen los homúnculos<br>
+                                    No puedo lavar mi pecado<br>
+                                    Será esta la última tumba que visite</p>
+                            </div>
+                        </article>
+                        <article class="poemitas_padding">
+                            <div class="poemitas_answer">
+                                <h3 class="poemitas_title">Los niños del silencio
+                                    <span class="poemitas_arrow">
+                                        <img src="/Images/arrow.svg" alt="" class="poemitas_img">
+                                    </span>
+                                </h3>
+                                <p class="poemitas_show">Los nombres de los inmortales,<br>
+                                    son el secreto por el que mueren las hadas<br>
+                                    Camino de lágrimas<br>
+                                    dónde cuerpos posan fijamente<br><br>
+                                    
+                                    Estos niños que has dejado al resguardo de tu puerta<br>
+                                    los extraviados alzados por tu mano,<br>
+                                    estos hijos de nadie<br>
+                                    dueños de un quejido sin amamantar,<br>
+                                    son estos las huellas que aparecen en los pórticos<br>
+                                    cuando las ventanas empiezan a sonar<br><br>
+                                    
+                                    Se siente la brisa raspar mi voz,<br>
+                                    rebajarla al sonido de una hoja seca<br><br>
+                                    
+                                    Me conoces, cómo he conocido tu mano,<br>
+                                    más alejado de tu realidad<br>
+                                    Estás a un grito de distancia<br>
+                                    y me acalla tu sombra<br>
+                                    Bebo la sangre de los ilusos, que igual a mí, <br>
+                                    te buscaron en los atardeceres<br><br>
+                                    
+                                    Tu presencia es el trueno que sale de la tierra,<br>
+                                    dejando un rastro negro<br>
+                                    por dónde pululan raíces húmedas <br>
+                                    Observa mi rostro,<br>
+                                    aquejumbrado de tantas palabras <br><br>
+                                    
+                                    Arrastra tu mirada a mi dolor<br>
+                                    Trae a alguno de tus sirvientes<br>
+                                    a desnudar tu armadura<br>
+                                    y que la espada de los sollozos derribe tu carne<br><br>
+                                    
+                                    Libera a estos niños de tu eterno deseo<br>
+                                    y muere con los demás culpables de esta eternidad <br><br>
+                                    
+                                    Vigila el mundo desde tu muerte, <br>
+                                    nigromante</p>
+                            </div>
+                        </article>
+                    </section>
+                </div>
+            </section>
+        </div>
+
+
+        <!-- CSS para ocultar los botones y los párrafos -->
+        <style type="text/css"> 
+            #sequia{
+                display: none;
+            }
+            #boton_sequia2{
+                display: none;;
+            }
+            #incendio{
+                display: none;
+            }
+            #boton_incendio2{
+                display: none;;
+            }
+            #cenizas{
+                display: none;
+            }
+            #boton_cenizas2{
+                display: none;
+            }
+        </style>
+
+        <!-- JS para hacer el efecto de cambio -->
+        <script type="text/javascript">
+            function visualSequia() {
+                document.getElementById('sequia').style.display = 'block';
+                document.getElementById('boton_sequia').style.display = 'none';
+                document.getElementById('boton_sequia2').style.display = 'block';
+            }
+        </script>
+         <script type="text/javascript">
+            function ciegoSequia() {
+                document.getElementById('sequia').style.display = 'none';
+                document.getElementById('boton_sequia2').style.display = 'none';
+                document.getElementById('boton_sequia').style.display = 'block';
+            }
+        </script>
+        <script type="text/javascript">
+            function visualIncendio() {
+                document.getElementById('incendio').style.display = 'block';
+                document.getElementById('boton_incendio').style.display = 'none';
+                document.getElementById('boton_incendio2').style.display = 'block';
+            }
+        </script>
+         <script type="text/javascript">
+            function ciegoIncendio() {
+                document.getElementById('incendio').style.display = 'none';
+                document.getElementById('boton_incendio2').style.display = 'none';
+                document.getElementById('boton_incendio').style.display = 'block';
+            }
+        </script>
+        <script type="text/javascript">
+            function visualCenizas() {
+                document.getElementById('cenizas').style.display = 'block';
+                document.getElementById('boton_cenizas').style.display = 'none';
+                document.getElementById('boton_cenizas2').style.display = 'block';
+            }
+        </script>
+         <script type="text/javascript">
+            function ciegoCenizas() {
+                document.getElementById('cenizas').style.display = 'none';
+                document.getElementById('boton_cenizas2').style.display = 'none';
+                document.getElementById('boton_cenizas').style.display = 'block';
+                requestIdleCallback
+            }
+        </script>
+        
+
+
     </main>
         
     
-
+    
     <script src="/JS/menu.js"></script>
     <script src="/JS/poemitas.js"></script>
 </body>

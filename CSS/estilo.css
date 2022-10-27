@@ -637,6 +637,23 @@ j{
     
 }
 
+.poemitas_derecha{
+    text-align: right;
+    font-style: italic;
+    color: #fff;
+    height: 0;
+    transition: .3s;
+}
+
+em{
+    text-align:right;
+}
+
+
+/* #sequia{
+    display: none;
+} */
+
 /* Botones */
 
 /* .boton{    
