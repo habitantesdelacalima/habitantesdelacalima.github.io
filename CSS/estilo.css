@@ -438,9 +438,9 @@ body{
 }
 
 @media (max-width:600px){
-    .hero_title{
+    /* .hero_title{
         font-size: 1rem;
-    }
+    } */
 
     .hero_paragraph{
         font-size: 1rem;
@@ -565,9 +565,9 @@ j{
 
 /* Poemitas */
 
-.poemitas{
+/* .poemitas{
     text-align: center;
-}
+} */
 
 .poemitas_container{
     display: grid;
@@ -645,9 +645,10 @@ j{
     transition: .3s;
 }
 
-em{
-    text-align:right;
+#logo{
+    border-radius: 100%;
 }
+
 
 
 /* #sequia{
