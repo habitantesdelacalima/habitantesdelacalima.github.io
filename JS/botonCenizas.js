@@ -1,4 +1,4 @@
-(function cenicero(){
+(function crearCenizas(){
     const body = document.querySelector('body')
 
 const crearCenizas = () => {

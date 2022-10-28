@@ -14,7 +14,7 @@
     <header class="hero_habitantes">
         <nav class="nav container">
             <div class="nav_logo">
-                <a href="index.html" class="nav_links"><img src="/Images/Logo.jpg" id="logo" width="70px"></a>
+                <a href="/index.html" class="nav_links"><img src="/Images/Logo.jpg" class="logo"></a>
             </div>
 
             <ul class="nav_link nav_link--menu">
@@ -39,7 +39,7 @@
         </nav>
 
         <section class="hero_container container">
-            <a href="/bryan.html" class="nav_links"><h2 class="hero_title_habitantes">Bryan Zacarias</h2></a>
+            <a href="/bryan.html" class="nav_links"><h2 class="">Bryan Zacarias</h2></a>
             <p class="hero_paragraph">Poemas dispersos</p>
         </section>
     </header>
@@ -47,7 +47,7 @@
         <!-- Arte -->
     <main>
         <!-- Se crean dos botones en la misma ubicación, así uno podrá reemplazar al otro con el CSS y el JS -->
-        <div class="about_main container">
+        <div class="about_main container" id="bio">
             <article class="about_icons"><button class="cta" id="boton_sequia" onclick="visualSequia()">Sequía</button>
                 <button class="cta" id="boton_sequia2" onclick="ciegoSequia()">Sequía</button>
             </article>
@@ -563,7 +563,6 @@
                 document.getElementById('cenizas').style.display = 'none';
                 document.getElementById('boton_cenizas2').style.display = 'none';
                 document.getElementById('boton_cenizas').style.display = 'block';
-                requestIdleCallback
             }
         </script>
         
