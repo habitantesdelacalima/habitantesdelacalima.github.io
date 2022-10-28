@@ -681,8 +681,7 @@ j{
     cursor: pointer;
     transition: 1s;
 }
-
-/* Esto hace que que las imágenes se acomoden */
+/* Esto hace que las imágenes se acomoden */
 .img_galeria img:hover{
     transform: scale(1.2);
 }
@@ -699,7 +698,7 @@ j{
     justify-content: center;
     z-index: 99;
 }
-
+/* Esta es la X */
 .img_big span{
     position: absolute;
     top: 5%;
@@ -713,3 +712,6 @@ j{
     width: 90%;
     max-width: 600px;
 }
+
+
+
