@@ -267,7 +267,7 @@ body{
     margin-bottom: 40px;
 }
 
-.poemitas_show, p{
+.poemitas_show{
     color: #fff;
     height: 0;
     transition: .3s;
