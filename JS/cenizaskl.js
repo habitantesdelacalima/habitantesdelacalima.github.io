@@ -1,10 +1,10 @@
-const about = document.querySelector('about')
+const about = document.querySelector('body')
 
 const crearCenizaskl = () => {
     let pavesakl = document.createElement('j')
     let x = innerWidth * Math.random()
     let size = (Math.random() * 4) + 2
-    let delay = Math.random() * 1
+    let delay = Math.random() * 5
     let anima = (Math.random() * 15) 
     let z = Math.round(Math.random()) * 100
     let grado = Math.random() * 90
