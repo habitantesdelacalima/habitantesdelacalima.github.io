@@ -75,7 +75,6 @@ body{
 .nav_links{
     color: #fff;
     text-decoration: none;
-    
 }
 
 .nav_menu{
@@ -143,6 +142,66 @@ body{
 }
 
 
+/* About */
+
+.about{
+    text-align: center;
+    padding-top: 0%;
+}
+
+.subtitle{
+    color: var(--color-title);
+    font-size: 2rem;
+    margin-bottom: 25px;
+}
+
+.about_paragraph{
+    color: #fff;
+    line-height: 1.7;
+}
+
+.about_main{
+    padding-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 0 auto;
+    gap: 1em;
+    overflow: hidden;
+    grid-template-columns: repeat(auto-fit, minmax(260px, auto));
+}
+
+.about_icons{
+    color: #fff;
+    display: grid;
+    gap: 1em;
+    justify-self: center;
+    width: 260px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.about_icon{
+    width: 40px;
+    justify-self: center;
+}
+
+.about_paragraph_name{
+    justify-self: center;
+}
+
+.asd{
+    color: #fff;
+    display: grid;
+    gap: 1em;
+    justify-items: center;
+    overflow: hidden;
+    margin: 0 auto;
+    text-decoration: none;
+    justify-self: center;
+}
+
+
 /* Habitantes */
 
 #bio{
@@ -189,119 +248,10 @@ body{
 }
 
 
-/* Poemitas */
-
-.poemitas_main{
-    padding-top: 40px;
-    display: flex;
-    flex-wrap: wrap;
-    width: 90%;
-    margin: 0 auto;
-    gap: 1em;
-    overflow: hidden;
-    grid-template-columns: repeat(auto-fit, minmax(260px, auto));
-}
-
-.poemitas_container{
-    display: grid;
-    gap: 2em;
-    padding-top: 10px;
-    padding-bottom: 50px;
-    padding-left: 20px;
-    padding-right: 20px;
-    text-align: center;
-}
-
-.poemitas_icons{
-    color: #fff;
-    display: grid;
-    gap: 1em;
-    justify-self: center;
-    width: 260px;
-    overflow: hidden;
-    margin: 0 auto;
-}
-
-.poemitas_padding{
-    padding: 0;
-    transition: padding .3s;
-    border: 1px solid rgba(250, 6, 67, 0.555);
-    border-radius: 6px;
-}
-
-.poemitas_padding--add{
-    padding-bottom: 30px;
-}
-
-.poemitas_answer{
-    padding: 0 30px 0;
-    overflow: hidden;
-}
-
-.poemitas_arrow{
-    border-radius: 50%;
-    background-color: var(--color-title);
-    width: 25px;
-    height: 25px;
-    display: flex;
-    justify-items: center;
-    align-self: flex-end;
-    margin-left: 10px;
-    transition: transform .3s;
-}
-
-.poemitas_arrow--rotate{
-    transform: rotate(180deg);
-}
-
-
-.poemitas_title{
-    text-align: center;
-    color: #fff;
-    display: flex;
-    padding: 30px 0 30px;
-    cursor: pointer;
-    justify-content:center;
-    font-size: 20px;
-}
-
-.poemitas_paragraph{
-    color: #fff;
-    margin-bottom: 40px;
-}
-
-.poemitas_show{
-    color: #fff;
-    height: 0;
-    transition: .3s;
-}
-
-.poemitas_cursiva{
-    text-align: right;
-    color: #fff;
-    height: 0;
-    transition: .3s;
-}
-
-.poemitas_img{
-    display: block;
-    
-}
-
-.poemitas_derecha{
-    text-align: right;
-    font-style: italic;
-    color: #fff;
-    height: 0;
-    transition: .3s;
-}
-
-
-
 /* Footer */
 
 .footer{
-    background-color: rgba(226, 5, 5, 0.541);
+    background-color: rgb(0, 0, 0);
 }
 
 .footer_title{
@@ -377,7 +327,6 @@ body{
 
 
 
-
 /* Media queries */
 
 @media (max-width:800px){
@@ -413,9 +362,8 @@ body{
         min-height: 200px;
         max-height: 500px;
     }
-    .poemitas_main{
-        gap: 2em;
-    }
+
+    
 
     .nav_link--show{
         --show: block;
@@ -494,13 +442,17 @@ body{
 }
 
 @media (max-width:600px){
+
+    .hero_title{
+        font-size: 2rem;
+    }
     
     .hero_paragraph{
         font-size: 1rem;
     }
 
     .subtitle{
-        font: 1.8rem;
+        font-size: 1.rem;
     }
 
     .libros{
@@ -552,10 +504,8 @@ body{
         padding-bottom: 40px;
     }
     
+
 }
-
-
-
 
 
 /* Cenizas */
@@ -598,5 +548,5 @@ j{
     100% {
         top: 10em;
         rotate: 1800deg;
-    }}
+}}
 

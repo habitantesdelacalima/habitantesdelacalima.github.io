@@ -43,6 +43,8 @@ body{
 }
 
 
+
+
 /* Nav */
 
 .nav{
@@ -93,6 +95,15 @@ body{
     display: var(--show, none);
 }
 
+.logo{
+    border-radius: 100%;
+    width: 70px;
+    height: 70px;
+    position: fixed;
+    top: 1em;
+    left: 1.5em;
+}
+
 
 
  /* Hero container */
@@ -136,6 +147,129 @@ body{
 
 
 
+/* Habitantes */
+
+#bio{
+    padding-top: 0;
+}
+
+.hero_title_habitantes{
+    font-size: rem;
+    text-shadow: 10px 10px 20px rgba(63, 43, 36, 0.986);
+}
+
+.hero_habitantes{
+    width: 100%;
+    height: 90vh;
+    min-height: 200px;
+    max-height: 800px;
+    position: relative;
+    display: grid;
+    grid-template-rows: 100px 1fr;
+    color:#fff;
+}
+
+.hero_habitantes::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(180deg, #0000008c 0%, #0000008c 100%), url(/Images/Algamord\ de\ frente.jpg);
+    background-size: cover;
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 95%, 0 80%);
+    z-index: -1;
+}
+
+.about_contacto{
+    color: #fff;
+    display: grid;
+    gap: 1em;
+    justify-self: center;
+    width: 100px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+
+
+/* Footer */
+
+.footer{
+    background-color: rgba(226, 5, 5, 0.541);
+}
+
+.footer_title{
+    font-weight: 300;
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.footer_title, .footer_postales{
+    color: #fff;
+}
+
+.footer_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 60px;
+}
+
+.nav--footer{
+    padding-bottom: 20px;
+    display: grid;
+    gap: 1em;
+    grid-auto-flow: row;
+    height: 100%;
+}
+
+.nav_link--footer{
+    display: flex;
+    margin: 0;
+    margin-right: 20px;
+    flex-wrap: wrap;
+}
+
+
+.footer_inputs{
+    margin-top: 10px;
+    display: flex;
+    overflow: hidden;
+}
+
+.footer_input{
+    background-color: #fff;
+    height: 50px;
+    display: block;
+    padding-left: 10px;
+    border-radius: 6px;
+    font-size: 1rem;
+    outline: none;
+    border: none;
+    margin-right: 16px;
+}
+
+.footer_copy{
+    --padding-container: 30px 0;
+    text-align: center;
+    color: #fff;
+}
+
+.footer_copyright{
+    font-weight: 300;
+}
+
+.footer_icons{
+    margin-bottom: 10px;
+}
+
+.footer_img{
+    width: 40px;
+}
+
 
 
 /* Media queries */
@@ -143,6 +277,11 @@ body{
 @media (max-width:800px){
     .nav_menu{
         display: block;
+        width: 70px;
+        height: 70px;
+        position: fixed;
+        top: 2em;
+        right: 0em;
     }
 
     .nav_link--menu{
@@ -187,7 +326,31 @@ body{
 
     .hero_title{
         font-size: 2.5rem;
-    }    
+    }
+
+    .footer_container{
+        flex-wrap: wrap;
+    }
+
+    .nav--footer{
+        width: 100%;
+        justify-items: center;
+    }
+
+    .nav_link--footer{
+        width: 100%;
+        justify-content: space-between;
+        margin: 0;
+    }
+
+    .footer_form{
+        width: 100%;
+        justify-content: space-evenly;
+    }
+
+    .footer_input{
+        flex: 1;
+    }
 }
 
 @media (max-width:600px){
@@ -198,7 +361,34 @@ body{
 
     .subtitle{
         font: 1.8rem;
-    }    
+    }
+    .footer_title{
+        justify-self: start;
+        margin-bottom: 15px;
+    }
+
+    .footer_inputs{
+        flex-wrap: wrap;
+    }
+
+    .footer_input{
+        flex-basis: 100%;
+        margin: 0;
+        margin-bottom: 16px;
+    }
+    
+    .footer_sumit{
+        margin-right: auto;
+        margin-left: 0;
+    }
+    
+    .nav_link--footer{
+        justify-content: space-between;
+    }
+
+    .nav_link{
+        padding-bottom: 40px;
+    }  
 }
 
 
@@ -251,59 +441,4 @@ j{
 
 
 
-/* Habitantes */
-
-#bio{
-    padding-top: 0;
-}
-
-.hero_title_habitantes{
-    font-size: rem;
-    text-shadow: 10px 10px 20px rgba(63, 43, 36, 0.986);
-}
-
-.hero_habitantes{
-    width: 100%;
-    height: 90vh;
-    min-height: 200px;
-    max-height: 800px;
-    position: relative;
-    display: grid;
-    grid-template-rows: 100px 1fr;
-    color:#fff;
-}
-
-.hero_habitantes::before{
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: linear-gradient(180deg, #0000008c 0%, #0000008c 100%), url(/Images/Algamord\ de\ frente.jpg);
-    background-size: cover;
-    clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 95%, 0 80%);
-    z-index: -1;
-}
-
-.about_contacto{
-    color: #fff;
-    display: grid;
-    gap: 1em;
-    justify-self: center;
-    width: 100px;
-    overflow: hidden;
-    margin: 0 auto;
-}
-
-
-/* Poemitas */
-
-
-
-.logo{
-    border-radius: 100%;
-    width: 70px;
-    height: 70px;
-}
 
