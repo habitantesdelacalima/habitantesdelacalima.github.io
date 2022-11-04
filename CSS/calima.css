@@ -9,6 +9,22 @@ body{
     background-color: #181818;
     font-family: 'Poppins', sans-serif;
 }
+body{    
+    background-color: #181818;
+    font-family: 'Poppins', sans-serif;
+}
+
+body::-webkit-scrollbar{
+    background-color: #0000008c;
+
+}
+body::-webkit-scrollbar-button{
+    background-color: #444444;
+}
+body::-webkit-scrollbar-thumb{
+    background-color: rgb(130, 37, 0);
+    border-radius: 5px;
+}
 
 .container{
     width: 90%;
@@ -149,11 +165,6 @@ body{
     padding-top: 0;
 }
 
-.hero_title_habitantes{
-    font-size: rem;
-    text-shadow: 10px 10px 20px rgba(63, 43, 36, 0.986);
-}
-
 .hero_habitantes{
     width: 100%;
     height: 90vh;
@@ -178,15 +189,6 @@ body{
     z-index: -1;
 }
 
-.about_contacto{
-    color: #fff;
-    display: grid;
-    gap: 1em;
-    justify-self: center;
-    width: 100px;
-    overflow: hidden;
-    margin: 0 auto;
-}
 
 
 /* Poemitas */

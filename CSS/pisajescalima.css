@@ -9,6 +9,22 @@ body{
     background-color: #181818;
     font-family: 'Poppins', sans-serif;
 }
+body{    
+    background-color: #181818;
+    font-family: 'Poppins', sans-serif;
+}
+
+body::-webkit-scrollbar{
+    background-color: #0000008c;
+
+}
+body::-webkit-scrollbar-button{
+    background-color: #444444;
+}
+body::-webkit-scrollbar-thumb{
+    background-color: rgb(130, 37, 0);
+    border-radius: 5px;
+}
 
 .container{
     width: 90%;
