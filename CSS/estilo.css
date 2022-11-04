@@ -54,6 +54,13 @@ body::-webkit-scrollbar-thumb{
     z-index: -1;
 }
 
+.marquee{
+    width: 30%;
+    padding-left: 5em;
+    display: block;
+    color: rgba(236, 186, 46, 0.795);
+}
+
 
 /* Nav */
 
