@@ -55,7 +55,7 @@ body::-webkit-scrollbar-thumb{
 }
 
 .marquee{
-    width: 30%;
+    width: 50%;
     padding-left: 5em;
     display: block;
     color: rgba(236, 186, 46, 0.795);
@@ -669,10 +669,7 @@ body::-webkit-scrollbar-thumb{
     }
 
     .marquee{
-        width: 50%;
         padding-left: 2em;
-        display: block;
-        color: rgba(236, 186, 46, 0.795);
     }
 
     .subtitle{
