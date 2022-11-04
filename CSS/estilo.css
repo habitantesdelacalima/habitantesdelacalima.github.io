@@ -668,6 +668,13 @@ body::-webkit-scrollbar-thumb{
         font-size: 1rem;
     }
 
+    .marquee{
+        width: 50%;
+        padding-left: 2em;
+        display: block;
+        color: rgba(236, 186, 46, 0.795);
+    }
+
     .subtitle{
         font-size: 1.rem;
     }
