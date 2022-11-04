@@ -146,9 +146,6 @@ body::-webkit-scrollbar-thumb{
     margin-bottom: 25px;
 }
 
-
-
-
 .cta{
     display: inline-block;
     background-color: #f97020ec;
@@ -166,27 +163,7 @@ body::-webkit-scrollbar-thumb{
 
 
 
-/* Habitantes */
-
-#bio{
-    padding-top: 0;
-}
-
-.hero_title_habitantes{
-    font-size: rem;
-    text-shadow: 10px 10px 20px rgba(63, 43, 36, 0.986);
-}
-
-.hero_habitantes{
-    width: 100%;
-    height: 90vh;
-    min-height: 200px;
-    max-height: 800px;
-    position: relative;
-    display: grid;
-    grid-template-rows: 100px 1fr;
-    color:#fff;
-}
+/* Poemario */
 
 .poemario_icons{
     color: #fff;
@@ -197,10 +174,6 @@ body::-webkit-scrollbar-thumb{
     overflow: hidden;
     margin: 0 auto;
 }
-
-
-
-/* Poemario */
 
 .pdfview{
     margin: auto;
