@@ -546,7 +546,7 @@ i{
         rotate: 0deg;
     }
     100% {
-        top: calc(100vh + 1700px);
+        top: calc(240vh);
         rotate: 540deg;
     }}
 
@@ -562,11 +562,11 @@ j{
 
 @keyframes cenizaskl {
     0% {
-        top: 170em;
+        top: 240vh;
         rotate: 0deg;
     }
     100% {
-        top: 10em;
+        top: 0vh;
         rotate: 1800deg;
 }}
 
