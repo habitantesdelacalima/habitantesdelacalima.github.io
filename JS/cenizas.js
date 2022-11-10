@@ -61,3 +61,35 @@ const crearBrasas = () => {
 
 
 setInterval(crearBrasas, 200);
+
+
+const poem = document.querySelector('body');
+
+const crearBrasaskl = () => {
+    let brasaskl = document.createElement('k');
+    let x = innerWidth * Math.random();
+    let size = (Math.random() * 4) + 2;
+    let delay = Math.random() * 5;
+    let anima = (Math.random() * 15) ;
+    let z = Math.round(Math.random()) * 100;
+    let grado = Math.random() * 90;
+    let derecha = (innerWidth * Math.random()) * 0.4;
+
+
+    brasaskl.style.left = (x - derecha) + 'px';
+    brasaskl.style.width = (size * 2) + 'px';
+    brasaskl.style.height = size + 'px';
+    brasaskl.style.animationDelay = delay + 's';
+    brasaskl.style.animationDuration = anima + 's';
+    brasaskl.style.zIndex = z;
+    brasaskl.style.rotate = grado + 'deg';
+    
+
+    body.appendChild(brasaskl);
+
+    setTimeout(() => {
+        brasaskl.remove()
+    }, anima * 1000)};
+
+
+setInterval(crearBrasaskl, 800);
