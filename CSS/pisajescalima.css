@@ -269,6 +269,11 @@ body::-webkit-scrollbar-thumb{
     padding-bottom: 60px;
 }
 
+.footer_links{
+    color: #fff;
+    text-decoration: none;
+}
+
 .nav--footer{
     padding-bottom: 20px;
     display: grid;
@@ -325,7 +330,7 @@ body::-webkit-scrollbar-thumb{
 
 /* Media queries */
 
-@media (max-width:800px){
+@media (max-width:1100px){
     .nav_menu{
         display: block;
         width: 70px;
@@ -337,7 +342,7 @@ body::-webkit-scrollbar-thumb{
 
     .nav_link--menu{
         position: fixed;
-        background-color: #f97020ec;
+        background-color: #000000ec;
         top: 0;
         left: 10%;
         height: 100%;
@@ -350,16 +355,21 @@ body::-webkit-scrollbar-thumb{
         opacity: 0;
         pointer-events: none;
         transition: .7s opacity;
+        border-radius: 30px;
     }
 
-    .hero_habitantes{
-        width: 100%;
-        height: 50vh;
-        min-height: 200px;
-        max-height: 500px;
+    .nav_links{
+        background-color: #c04208ec;
+        box-shadow: 0 1px 8px rgba(175, 2, 2, 0.726), 0 6px 40px 5px #940000c0, 0 12px 50px 5px #770000a9;
+        border-radius: 7px;
+        padding: 3px;
     }
-
-    
+    .nav_links:hover{
+        background-color: #b10000;
+        box-shadow: 0 1px 10px 4px rgba(255, 1, 1, 0.61), 0 1px 20px 5px #ff3c0077, 0 1px 30px 7px #ffffff8f;
+        border-radius: 7px;
+        padding: 3px;
+    }
 
     .nav_link--show{
         --show: block;
@@ -373,6 +383,16 @@ body::-webkit-scrollbar-thumb{
         right: 30px;
         width: 30px;
         cursor: pointer;
+    }
+}
+
+@media (max-width:800px){
+
+    .hero_habitantes{
+        width: 100%;
+        height: 50vh;
+        min-height: 200px;
+        max-height: 500px;
     }
 
     .hero_title{
@@ -414,6 +434,10 @@ body::-webkit-scrollbar-thumb{
 
     .footer_container{
         flex-wrap: wrap;
+    }
+
+    .footer_links{
+        padding: 3px;
     }
 
     .nav--footer{
@@ -535,11 +559,11 @@ j{
     border-radius: 50%;
     box-shadow: 4 4px 4px rgb(10, 10, 10);
     top: -10px;
-    animation: cenizaskl linear infinite;   
+    animation: brasas linear infinite;   
     overflow: hidden;    
 }
 
-@keyframes cenizaskl {
+@keyframes brasas {
     0% {
         top: 170em;
         rotate: 0deg;
