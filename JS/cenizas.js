@@ -69,7 +69,7 @@ const crearBrasaskl = () => {
     let brasaskl = document.createElement('k');
     let x = innerWidth * Math.random();
     let size = (Math.random() * 4) + 2;
-    let delay = Math.random() * 5;
+    let delay = Math.random();
     let anima = (Math.random() * 15) ;
     let z = Math.round(Math.random()) * 100;
     let grado = Math.random() * 90;

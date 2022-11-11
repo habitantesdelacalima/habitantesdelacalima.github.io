@@ -520,3 +520,24 @@ j{
         rotate: 1800deg;
 }}
 
+k{
+    position: absolute;
+    background: rgb(180, 2, 2);
+    border-radius: 50%;
+    box-shadow: 4 4px 4px rgb(10, 10, 10);
+    top: -10px;
+    animation: brasaskl linear infinite;   
+    overflow: hidden;    
+}
+
+@keyframes brasaskl {
+    0% {
+        top: 150vh;
+        rotate: 0deg;
+    }
+    100% {
+        background: #ffe600;
+        top: 0vh;
+        rotate: 1800deg;
+}}
+
