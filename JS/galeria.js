@@ -1,32 +1,14 @@
 const imgBigBox = document.getElementById("img_big_box"),
 imgBig = document.getElementById('img_big');
 
-function openFull(reference){
+function openFullImg(reference){
     imgBigBox.style.display = "flex";
     imgBig.src = reference;
 }
 
-function closeFicha(){
+function closeImg(){
     imgBigBox.style.display = "none";
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
