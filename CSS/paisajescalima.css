@@ -226,8 +226,11 @@ body::-webkit-scrollbar-thumb{
 }
 
 .light-box img{
-    width: 75vh;
+    max-width: 70vh;
     max-height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .light-box:target{
@@ -298,19 +301,34 @@ body::-webkit-scrollbar-thumb{
 
 
 /* Galeria */
-
-.catego{
-    font-weight: 400;
-    text-align: center;
-    padding: 20px 0;
-    font-size: 40px;
+.secciones_content{
+    padding-bottom: 5rem;
+}
+.secciones{
+    display: flex;
+    gap: 2em;
+    justify-content: center;
+    padding-top: 3rem;
+    padding-bottom: 1.5rem;
+}
+.seccion{
+    display: inline-block;
+    background-color: #f97020ec;
+    justify-self: center;
+    color: #fff;
+    text-decoration: none;
+    padding: 13px 22px;
+    border-radius: 8px;
+    transition: 1s;
+    cursor: pointer;
+}
+.seccion:hover {
+    background: url(/Images/Bosque\ ceniza.jpg);
+    background-size: cover;
 }
 
-.linea{
-    background: #550b51;
-    height: 5px;
-    width: 100%;
-    display: block;
+.titulos{
+    text-align: center;
 }
 
 
