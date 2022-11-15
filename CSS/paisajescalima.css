@@ -110,7 +110,6 @@ body::-webkit-scrollbar-thumb{
     grid-auto-rows: max-content;
     align-content: center;
     gap: lem;
-    padding-bottom: 80px;
     text-align: center;   
 }
 
@@ -477,6 +476,7 @@ body::-webkit-scrollbar-thumb{
 @media (max-width:800px){
     .galeria4{
         grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        width: 75%;
     }
     
     .close{
