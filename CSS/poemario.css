@@ -331,6 +331,10 @@ body::-webkit-scrollbar-thumb{
 
 @media (max-width:800px){
 
+    .pdfview{
+        display: none;
+    }
+
     .hero_habitantes{
         width: 100%;
         height: 50vh;
