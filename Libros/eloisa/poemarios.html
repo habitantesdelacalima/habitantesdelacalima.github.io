@@ -8,7 +8,7 @@
     <link rel="shortcut icon" href="/Images/icono-modified.png" type="image/x-icon">
     <link rel="stylesheet" href="/CSS/normalize.css">
     <link rel="stylesheet" href="/CSS/poemario.css">
-
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.2.2/pdf.min.js"></script>
 </head>
 <body>
     
@@ -58,11 +58,13 @@
             </article>
         </section>
     </header>
-
+    
     <body>
-        
         <div id="sequia">
-            <object data="/Libros/eloisa/CaballoFinal.pdf" type="application/pdf" class="pdfview"></object>
+            <p class="pes">Descarga el libro</p>
+            <object data="/Libros/eloisa/CaballoFinal.pdf" type="application/pdf" class="pdfview" ></object>
+            <p class="pes">O disfrútalo desde la página</p>
+            <div id="canvases"></div>
         </div>
     </body>
 
@@ -142,7 +144,7 @@
     </script>
 
 
-
+    <script src="/JS/poemarios/caballofinal.js"></script>
     <script src="/JS/menu.js"></script>
 </body>
 </html>

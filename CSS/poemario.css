@@ -161,6 +161,28 @@ body::-webkit-scrollbar-thumb{
     background: rgba(255, 72, 0, 0.76);
 }
 
+.ctaSeleccionado{
+    display: inline-block;
+    background-color: rgba(255, 72, 0, 0.76);
+    justify-self: center;
+    color: #fff;
+    text-decoration: none;
+    padding: 13px 22px;
+    border-radius: 32px;
+    transition: .3s;
+}
+
+
+/* Botones */
+#sequia{
+    display: none;
+    margin-bottom: 2em;
+}
+#boton_sequia2{
+    display: none;
+    background-color: rgba(255, 72, 0, 0.76);
+    justify-self: center;
+}
 
 
 /* Poemario */
@@ -188,9 +210,16 @@ body::-webkit-scrollbar-thumb{
     margin: 20px auto;
     display: none;
     overflow: auto;
-    
+    max-height: 95vh;
     max-width: 75vh;
-  }
+}
+
+.pes{
+    text-align: center;
+    color: #fff;
+    padding: 2em;
+    display: none;
+}
 
 
 /* Footer */
@@ -379,7 +408,10 @@ body::-webkit-scrollbar-thumb{
 @media (max-width:600px){
 
     .pdfview{
-        height: 30vh;
+        height: 20vh;
+    }
+    .pes{
+        display: block;
     }
 
     #canvases canvas {
