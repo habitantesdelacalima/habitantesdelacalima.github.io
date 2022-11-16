@@ -184,8 +184,13 @@ body::-webkit-scrollbar-thumb{
     box-shadow: 0 4px 8px rgb(250, 0, 0), 0 6px 20px 0 rgb(250, 79, 0);
 }
 
-
-
+#canvases canvas {
+    margin: 20px auto;
+    display: none;
+    overflow: auto;
+    
+    max-width: 75vh;
+  }
 
 
 /* Footer */
@@ -331,10 +336,6 @@ body::-webkit-scrollbar-thumb{
 
 @media (max-width:800px){
 
-    .pdfview{
-        display: none;
-    }
-
     .hero_habitantes{
         width: 100%;
         height: 50vh;
@@ -376,6 +377,18 @@ body::-webkit-scrollbar-thumb{
 }
 
 @media (max-width:600px){
+
+    .pdfview{
+        height: 30vh;
+    }
+
+    #canvases canvas {
+        margin: 20px auto;
+        display: block;
+        overflow: auto;
+        
+      }
+    
     
     .hero_paragraph{
         font-size: 1rem;
