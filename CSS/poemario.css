@@ -177,6 +177,7 @@ body::-webkit-scrollbar-thumb{
 #sequia{
     display: none;
     margin-bottom: 2em;
+    padding-bottom: 2rem;
 }
 #boton_sequia2{
     display: none;
@@ -184,6 +185,13 @@ body::-webkit-scrollbar-thumb{
     justify-self: center;
 }
 
+#osario{
+    padding-bottom: 2rem;
+}
+
+#bestiario{
+    padding-bottom: 2rem;
+}
 
 /* Poemario */
 
@@ -415,10 +423,9 @@ body::-webkit-scrollbar-thumb{
     }
 
     #canvases canvas {
-        margin: 20px auto;
+        margin: 20px 1em;
         display: block;
         overflow: auto;
-        
     }
     
     

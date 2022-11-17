@@ -6,7 +6,7 @@ var pdfDoc = null,
     pageNum = 1,
     pageRendering = false,
     pageNumPending = null,
-    scale = 0.9;
+    scale = 1;
 
 
 function renderPage(num, canvas) {
