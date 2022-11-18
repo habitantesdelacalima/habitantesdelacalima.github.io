@@ -215,6 +215,7 @@ body::-webkit-scrollbar-thumb{
     justify-items: center;
     overflow: hidden;
     margin: 0 auto;
+    padding-top: 2em;
     text-decoration: none;
     justify-self: center;
 }
@@ -270,11 +271,12 @@ body::-webkit-scrollbar-thumb{
 
 .visitantes_ambiente{
     color: #fff;
-    background-color: #ff3a3a71;
+    background-color: #ff812dbd;
     display: inline-block;
     padding: 5px;
     cursor: pointer;
     transition: .2s;
+    border-radius: 10px;
 }
 .visitantes_ambiente:hover{
     background-color: #ff2323b2;

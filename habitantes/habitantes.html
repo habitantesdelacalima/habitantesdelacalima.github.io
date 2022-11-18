@@ -4,19 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Poemarios</title>
+    <title>Habitantes</title>
     <link rel="shortcut icon" href="/Images/icono-modified.png" type="image/x-icon">
     <link rel="stylesheet" href="/CSS/normalize.css">
-    <link rel="stylesheet" href="/CSS/poemario.css">
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.2.2/pdf.min.js"></script>
-
+    <link rel="stylesheet" href="/CSS/habitanvisitan.css">
 </head>
 <body>
     
-    <header class="hero">
+    <header class="hero_habitantes">
         <nav class="nav container">
             <div class="nav_logo">
-                <a href="/index.html" class="nav_links"><img src="/Images/Logo.jpg" class="logo"></a>
+                <a href="/index.html"><img src="/Images/Logo.jpg" class="logo"></a>
             </div>
 
             <ul class="nav_link nav_link--menu">
@@ -24,7 +22,7 @@
                     <a href="/index.html" class="nav_links">Inicio</a>
                 </li>
                 <li class="nav_items">
-                    <a href="/habitantes.html" class="nav_links">Habitantes</a>
+                    <a href="/habitantes/habitantes.html" class="nav_links">Habitantes</a>
                 </li>
                 <li class="nav_items">
                     <a href="/Libros/poemario.html" class="nav_links">Poemario</a>
@@ -41,35 +39,67 @@
                 <li class="nav_items">
                     <a href="/contacto.html" class="nav_links">Contacto</a>
                 </li>
-                
                 <img src="/Images/close.svg" alt="calima" class="nav_close">
             </ul>
 
             <div class="nav_menu">
-                <img src="/Images/menu.svg" class="nav_img">
+                <img src="/Images/menu.svg" alt="calima2" class="nav_img">
             </div>
         </nav>
 
         <section class="hero_container container">
-            <a href="/.html" class="footer_links"><h1 class="hero_title_habitantes">TEST</h1></a>
-            <p class="hero_paragraph">TEST</p>
-
-            <article class="poemario_icons"><button class="cta" id="boton_sequia" onclick="visualSequia()">TEST</button>
-                <button class="cta" id="boton_sequia2" onclick="ciegoSequia()">TEST</button>
-            </article>
+            <h1 class="hero_title_habitantes">Habitantes</h1>
+            <p class="hero_paragraph">El primer rostro fue dorado brotó de las entrañas de la tierra</p>
         </section>
     </header>
 
-    <body>
-        
-        <div id="sequia">
-            <p class="pes">Descarga nuestro libro</p>
-            <object data="/Libros/Sequía.pdf" type="application/pdf" class="pdfview" ></object>
-            <p class="pes">O disfrútalo desde la página</p>
-            <div id="canvases"></div>
+    <!-- Habitantes -->
+    <main class="main">
+        <h1 class="asd">Habitantes de la Calima</h1>
+
+        <div class="habitantes container">
+            <article class="habitante">
+                <img src="/Images/Bosque ceniza.jpg" class="foto">
+                <article>
+                    <h2 class="nombre">Bryan Zacarias</h2>
+                    <p class="resena">Su poesía, tesis de la melancolía y el fin de un mundo medieval, se nos presenta en una óptica simbólica.</p>
+                    <a href="/bryan.html" class="leer">Leer más</a>
+                </article>
+            </article>
+            <article class="habitante">
+                <img src="/Images/Bosque ceniza.jpg" class="foto">
+                <article>
+                    <h2 class="nombre">Arepa</h2>
+                    <p class="resena">Es rica.</p>
+                    <a href="/bryan.html" class="leer">Leer más</a>
+                </article>
+            </article>
         </div>
+    </main>
+
+    <!-- Visitantes -->
+    <main class="main">
+        <h1 class="asd">Visitantes Calima</h1>
+
+        <div class="habitantes container">
+            <article class="visitante">
+                <img src="/Images/Bosque ceniza.jpg" class="foto">
+                <article>
+                    <h2 class="nombre">Paola De Andrade</h2>
+                    <p class="resena">Escritora, correctora e investigadora teatral. Licencia en Teatro (Unearte, 2020 Escritora, correctora e investigadora teatral. Licencia en Teatro (Unearte, 2020</p>
+                    <a href="/visitantes/paola.html" class="leer">Leer más</a>
+                </article>
+            </article>
+            <article class="visitante">
+                <img src="/Images/Bosque ceniza.jpg" class="foto">
+                <article>
+                    <h2 class="nombre">Arepa</h2>
+                    <p class="resena">Es rica.</p>
+                    <a href="/bryan.html" class="leer">Leer más</a>
+                </article>
+            </article>
         </div>
-    </body>
+    </main>
 
     <footer class="footer">
         <section class="footer_container container">
@@ -77,10 +107,10 @@
                 <h2 class="footer_title">Habitantes de la Calima</h2>
                 <ul class="nav_link nav_link--footer">
                     <li class="nav_items">
-                    <a href="index.html" class="footer_links">Inicio</a>
+                    <a href="/index.html" class="footer_links">Inicio</a>
                     </li>
                     <li class="nav_items">
-                        <a href="/habitantes.html" class="footer_links">Habitantes</a>
+                        <a href="/habitantes/habitantes.html" class="footer_links">Habitantes</a>
                     </li>
                     <li class="nav_items">
                         <a href="/Libros/poemario.html" class="footer_links">Poemario</a>
@@ -116,24 +146,8 @@
         </section>
     </footer>
 
-    <!-- JS para hacer el efecto de cambio -->
-    <script type="text/javascript">
-        function visualSequia() {
-            document.getElementById('sequia').style.display = 'block';
-            document.getElementById('boton_sequia').style.display = 'none';
-            document.getElementById('boton_sequia2').style.display = 'block';
-        }
-    </script>
-     <script type="text/javascript">
-        function ciegoSequia() {
-            document.getElementById('sequia').style.display = 'none';
-            document.getElementById('boton_sequia2').style.display = 'none';
-            document.getElementById('boton_sequia').style.display = 'block';
-        }
-    </script>
-    
-
-    <script src="/JS/poemario.js"></script>
     <script src="/JS/menu.js"></script>
+        <!--Cenizas-->
+    <script src="/JS/cenizas.js"></script>
 </body>
 </html>

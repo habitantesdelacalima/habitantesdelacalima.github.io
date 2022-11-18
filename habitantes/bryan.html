@@ -4,15 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Osario</title>
+    <title>La Bestia</title>
     <link rel="shortcut icon" href="/Images/icono-modified.png" type="image/x-icon">
     <link rel="stylesheet" href="/CSS/normalize.css">
-    <link rel="stylesheet" href="/CSS/poemario.css">
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.2.2/pdf.min.js"></script>
+    <link rel="stylesheet" href="/CSS/habitantes.css">
 </head>
 <body>
     
-    <header class="hero">
+    <header class="hero_habitantes">
         <nav class="nav container">
             <div class="nav_logo">
                 <a href="/index.html"><img src="/Images/Logo.jpg" class="logo"></a>
@@ -23,7 +22,7 @@
                     <a href="/index.html" class="nav_links">Inicio</a>
                 </li>
                 <li class="nav_items">
-                    <a href="/habitantes.html" class="nav_links">Habitantes</a>
+                    <a href="/habitantes/habitantes.html" class="nav_links">Habitantes</a>
                 </li>
                 <li class="nav_items">
                     <a href="/Libros/poemario.html" class="nav_links">Poemario</a>
@@ -45,24 +44,65 @@
             </ul>
 
             <div class="nav_menu">
-                <img src="/Images/menu.svg" class="nav_img">
+                <img src="/Images/menu.svg" alt="calima2" class="nav_img">
             </div>
         </nav>
 
         <section class="hero_container container">
-            <a href="/Libros/felipe/poemarios.html" class="footer_links"><h1 class="hero_title_habitantes">Felipe Ezeiza</h1></a>
-            <h2 class="hero_paragraph">Osario</h2>
+            <h1 class="hero_title_habitantes">Bryan Zacarias</h1>
+            <p class="hero_paragraph">Nací de un sentimiento en ruinas, en el crujir de las cenizas</p>
         </section>
     </header>
 
-    <body>
-        <div id="osario">
-            <p class="pes">Descarga el libro</p>
-            <object data="/Libros/felipe/Osario.pdf" type="application/pdf" class="pdfview" ></object>
-            <p class="pes">O disfrútalo desde la página</p>
-            <div id="canvases"></div>
-        </div>
-    </body>
+    <!-- Biografía -->
+    <main>
+        <section class="container about" id="bio">
+            <p class="about_paragraph">Bryan Zacarías (Los Teques, 1995). Desarrolló una afición por recrear los personajes
+                de sus sueños y los caballeros de la edad media, desde una óptica impregnada en
+                simbolismo y en el romanticismo del siglo XIX. <br>
+                Es cofundador del grupo Habitantes de la Calima. Participó en la antología Sequía
+                (Senzala, 2020). Su poesía opera entre la melancolía y la certeza de una muerte que
+                nunca llega a posarse sobre su pecho.</p>
+                
+                <!-- Arte -->
+                <div class="about_main">
+                    <!-- <article class="about_icons">
+                        <img src="/Images/habitantes/book.svg" alt="" class="about_icon">
+                        <a href="/Libros/bryan/poemarios.html" class="asd cta"><h3 class="asd">Poemarios</h3></a>
+                    </article> -->
+                    
+                    <article class="about_icons">
+                        <img src="/Images/fuego.svg" alt="" class="about_icon">
+                        <a href="/Libros/bryan/calima.html" class="asd cta"><h3 class="asd">Antologías</h3></a>
+                    </article>
+
+                    <article class="about_icons">
+                        <img src="/Images/habitantes/leaf.svg" alt="" class="about_icon">
+                        <a href="/Libros/bryan/hojassecas.html" class="asd cta"><h3 class="asd">Poesía suelta</h3></a>
+                    </article>
+                </div>
+
+                <!-- Contacto -->
+                <div class="about_main">
+                    <div class="about_icons"><img src="/Images/habitantes/phone.svg" alt="" class="about_icon">
+                        <h2 class="asd">Contacto</h2>
+                    </div>
+                </div>
+
+                <div class="about_main">
+                    <article class="about_contacto">
+                        <a href="https://www.facebook.com/bryzac" class="asd"><img src="/Images/habitantes/face.svg" alt="" class="about_icon"></a>
+                        <a href="https://www.facebook.com/bryzac" class="asd"><p class="about_paragraph_name">Facebook</p></a>
+                    </article>
+                    <article class="about_contacto">
+                        <a href="https://www.instagram.com/imbryzac/" class="asd"><img src="/Images/habitantes/instagram.svg" class="about_icon"></a>
+                        <a href="https://www.instagram.com/imbryzac/" class="asd"><p class="about_paragraph_name">Instagram</p></a>
+                    </article>
+                </div>
+            
+
+        </section>
+    </main>
 
     <footer class="footer">
         <section class="footer_container container">
@@ -73,7 +113,7 @@
                     <a href="/index.html" class="footer_links">Inicio</a>
                     </li>
                     <li class="nav_items">
-                        <a href="/habitantes.html" class="footer_links">Habitantes</a>
+                        <a href="/habitantes/habitantes.html" class="footer_links">Habitantes</a>
                     </li>
                     <li class="nav_items">
                         <a href="/Libros/poemario.html" class="footer_links">Poemario</a>
@@ -108,9 +148,10 @@
             <h3 class="footer_copyright">Derechos reservados &copy; Habitantes de la Calima</h3>
         </section>
     </footer>
+        
 
-
-    <script src="/JS/poemarios/osario.js"></script>
     <script src="/JS/menu.js"></script>
+        <!--Cenizas-->
+    <script src="/JS/cenizas.js"></script>
 </body>
 </html>

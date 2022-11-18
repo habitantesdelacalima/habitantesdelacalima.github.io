@@ -423,9 +423,8 @@ body::-webkit-scrollbar-thumb{
     }
 
     #canvases canvas {
-        margin: 20px 1em;
+        margin: 20px auto;
         display: block;
-        overflow: auto;
     }
     
     
