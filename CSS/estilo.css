@@ -641,10 +641,12 @@ body::-webkit-scrollbar-thumb{
         width: 200px;
         height: 200px;
     }
+    . visitantes{
+        width: 90%;
+    }
 
     .visitantes_container{
         grid-template-columns: 30px 1fr 30px;
-
     }
 
     .visitantes_body{
@@ -655,8 +657,8 @@ body::-webkit-scrollbar-thumb{
     }
 
     .visitantes_img{
-        width: 200px;
-        height: 200px;
+        width: 100px;
+        height: 100px;
     }
 
     .footer_container{
