@@ -220,6 +220,8 @@ body::-webkit-scrollbar-thumb{
     overflow: auto;
     max-height: 95vh;
     max-width: 75vh;
+    justify-content: center;
+    align-items: center;
 }
 
 .pes{
@@ -493,10 +495,4 @@ body::-webkit-scrollbar-thumb{
     .nav_link{
         padding-bottom: 40px;
     }  
-}
-
-
-.center {
-    justify-content: center;
-    align-items: center;
 }
