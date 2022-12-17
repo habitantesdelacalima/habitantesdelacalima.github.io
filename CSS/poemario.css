@@ -314,6 +314,7 @@ body::-webkit-scrollbar-thumb{
 
 /* Loader */
 .center {
+    justify-content: center;
     align-items: center;
 }
 
