@@ -1,6 +1,6 @@
 const centrar = document.querySelector('#canvases');
 centrar.classList.add('center');
-centrar.innerHTML = '<span class="loader"></span>';
+centrar.innerHTML = '<span class="loader"></span>'
 
 var url = '/Libros/eloisa/CaballoFinal.pdf';
 var pdfjsLib = window['pdfjs-dist/build/pdf'];
