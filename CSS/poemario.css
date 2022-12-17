@@ -313,10 +313,6 @@ body::-webkit-scrollbar-thumb{
 
 
 /* Loader */
-.center {
-    justify-content: center;
-    align-items: center;
-}
 
 .loader {
   width: 48px;
@@ -497,4 +493,10 @@ body::-webkit-scrollbar-thumb{
     .nav_link{
         padding-bottom: 40px;
     }  
+}
+
+
+.center {
+    justify-content: center;
+    align-items: center;
 }
