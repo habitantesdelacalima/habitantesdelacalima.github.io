@@ -315,8 +315,6 @@ body::-webkit-scrollbar-thumb{
 /* Loader */
 
 .loader {
-    justify-content: center;
-    align-items: center;
   width: 48px;
   height: 48px;
   border-radius: 50%;
@@ -495,4 +493,10 @@ body::-webkit-scrollbar-thumb{
     .nav_link{
         padding-bottom: 40px;
     }  
+}
+
+
+.center {
+    justify-content: center;
+    align-items: center;
 }
