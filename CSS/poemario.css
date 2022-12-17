@@ -321,35 +321,36 @@ body::-webkit-scrollbar-thumb{
 .loader {
     width: 48px;
     height: 48px;
-    border: 3px solid #FFF;
-    border-radius: 50%;
     display: inline-block;
     position: relative;
-    box-sizing: border-box;
-    animation: rotation 1s linear infinite;
   }
-  .loader::after {
+  .loader::after,
+  .loader::before {
     content: '';  
     box-sizing: border-box;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    width: 40px;
-    height: 40px;
+    width: 48px;
+    height: 48px;
     border-radius: 50%;
-    border: 3px solid;
-    border-color: #FF3D00 transparent;
+    border: 2px solid #FFF;
+    position: absolute;
+    left: 0;
+    top: 0;
+    animation: animloader 2s linear infinite;
+  }
+  .loader::after {
+    animation-delay: 1s;
   }
   
-  @keyframes rotation {
+  @keyframes animloader {
     0% {
-      transform: rotate(0deg);
+      transform: scale(0);
+      opacity: 1;
     }
     100% {
-      transform: rotate(360deg);
+      transform: scale(1);
+      opacity: 0;
     }
-  } 
+  }
 
 
 
