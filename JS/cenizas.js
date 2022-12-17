@@ -7,7 +7,6 @@ const crearCenizas = () => {
     let delay = Math.random() * 5;
     let anima = (Math.random() * 200) + 5;
     let z = Math.round(Math.random()) * 100;
-    let grado = Math.random() * 90;
     let derecha = (innerWidth * Math.random()) * 0.4;
 
 
@@ -17,7 +16,7 @@ const crearCenizas = () => {
     pavesa.style.animationDelay = delay + 's';
     pavesa.style.animationDuration = anima + 's';
     pavesa.style.zIndex = z;
-    pavesa.style.rotate = grado + 'deg';
+
     
 
     body.appendChild(pavesa);
@@ -40,7 +39,6 @@ const crearBrasas = () => {
     let delay = Math.random() * 5;
     let anima = (Math.random() * 15) ;
     let z = Math.round(Math.random()) * 100;
-    let grado = Math.random() * 90;
     let derecha = (innerWidth * Math.random()) * 0.4;
 
 
@@ -50,7 +48,6 @@ const crearBrasas = () => {
     brasas.style.animationDelay = delay + 's';
     brasas.style.animationDuration = anima + 's';
     brasas.style.zIndex = z;
-    brasas.style.rotate = grado + 'deg';
     
 
     body.appendChild(brasas);
@@ -72,7 +69,6 @@ const crearBrasaskl = () => {
     let delay = Math.random();
     let anima = (Math.random() * 15) ;
     let z = Math.round(Math.random()) * 100;
-    let grado = Math.random() * 90;
     let derecha = (innerWidth * Math.random()) * 0.4;
 
 
@@ -82,7 +78,6 @@ const crearBrasaskl = () => {
     brasaskl.style.animationDelay = delay + 's';
     brasaskl.style.animationDuration = anima + 's';
     brasaskl.style.zIndex = z;
-    brasaskl.style.rotate = grado + 'deg';
     
 
     body.appendChild(brasaskl);
