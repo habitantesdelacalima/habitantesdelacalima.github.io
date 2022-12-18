@@ -316,6 +316,16 @@ body::-webkit-scrollbar-thumb{
 
 /* Loader */
 
+span {
+    align-items: center;
+    justify-content: center;
+}
+
+.center {
+    align-items: center;
+    justify-content: center;
+}
+
 .loader {
   box-sizing: border-box;
   display: inline-block;
@@ -387,16 +397,6 @@ body::-webkit-scrollbar-thumb{
     transform: rotate(360deg);
     background-position: 50% 36px;
   }
-}
-   
-span {
-    align-items: center;
-    justify-content: center;
-}
-
-.center {
-    align-items: center;
-    justify-content: center;
 }
 
 
