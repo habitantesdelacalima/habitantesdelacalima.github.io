@@ -324,10 +324,6 @@ span {
 .center {
     align-items: center;
     justify-content: center;
-    align-content: center;
-    align-self: center;
-    justify-items: center;
-    justify-self: center;
 }
 
 .loader {

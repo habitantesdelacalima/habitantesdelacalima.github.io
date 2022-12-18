@@ -1,4 +1,4 @@
-// const centrar = document.querySelector('#canvases');
+const centrar = document.querySelector('#canvases');
 // centrar.classList.add('center');
 centrar.innerHTML = '<span class="loader center"></span>';
 
