@@ -553,4 +553,14 @@ span {
     .nav_link{
         padding-bottom: 40px;
     }  
+
+    span {
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .center {
+        align-items: center;
+        justify-content: center;
+    }
 }
