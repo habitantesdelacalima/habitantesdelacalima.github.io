@@ -389,7 +389,10 @@ body::-webkit-scrollbar-thumb{
   }
 }
    
-
+span {
+    align-items: center;
+    justify-content: center;
+}
 
 .center {
         align-items: center;
@@ -505,9 +508,6 @@ body::-webkit-scrollbar-thumb{
 
     .pdfview{
         height: 20vh;
-    }
-   
-        display: block;
     }
 
     #canvases canvas {
