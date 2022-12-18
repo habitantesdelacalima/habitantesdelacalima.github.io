@@ -1,5 +1,5 @@
-const centrar = document.querySelector('#canvases');
-centrar.classList.add('center');
+// const centrar = document.querySelector('#canvases');
+// centrar.classList.add('center');
 centrar.innerHTML = '<span class="loader center"></span>';
 
 var url = '/Libros/Sequía.pdf';
@@ -58,6 +58,6 @@ pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
         renderPage(i+1, canvas);
     }
 
-    centrar.classList.remove('center');
+    // centrar.classList.remove('center');
     });
 
