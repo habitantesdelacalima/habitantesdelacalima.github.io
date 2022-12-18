@@ -510,11 +510,14 @@ span {
         height: 20vh;
     }
 
+    .pes{
+        display: block;
+    }
+
     #canvases canvas {
         margin: 20px auto;
         display: block;
     }
-    
     
     .hero_paragraph{
         font-size: 1rem;
