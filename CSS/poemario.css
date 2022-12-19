@@ -217,8 +217,6 @@ body::-webkit-scrollbar-thumb{
     overflow: auto;
     max-height: 95vh;
     max-width: 75vh;
-    justify-content: center;
-    align-items: center;
 }
 
 .pes{
@@ -312,9 +310,6 @@ body::-webkit-scrollbar-thumb{
 
 
 /* Loader */
-.center {
-    align-items: flex-end;
-}
 
 .loader {
   box-sizing: border-box;
@@ -548,7 +543,10 @@ body::-webkit-scrollbar-thumb{
         align-items: center;
     }
     
-    .center {
+    #center {
+        color: #fff;
+        display: flex;
         align-items: center;
+        justify-content: center;
     }
 }
