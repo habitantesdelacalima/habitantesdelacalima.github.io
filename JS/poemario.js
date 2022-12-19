@@ -56,5 +56,7 @@ pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
         var canvas = document.getElementById('canvas_' + i);
         renderPage(i+1, canvas);
     }
+
+    centrar.classList.add('center');
     });
 
