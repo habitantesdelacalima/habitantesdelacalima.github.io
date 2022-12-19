@@ -1,7 +1,7 @@
+const centrar = document.querySelector('.center');
 if (innerWidth < 601) {
-    const centrar = document.querySelector('.center');
     centrar.innerHTML = '<span class="loader"></span>';
-}
+};
 
 var url = '/Libros/eloisa/CaballoFinal.pdf';
 var pdfjsLib = window['pdfjs-dist/build/pdf'];
