@@ -1,4 +1,4 @@
-const centrar = document.querySelectorAll('.center');
+const centrar = document.querySelector('#center');
 centrar.innerHTML = '<span class="loader"></span>';
 
 var url = '/Libros/Sequía.pdf';
