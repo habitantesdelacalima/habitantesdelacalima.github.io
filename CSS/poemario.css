@@ -315,11 +315,6 @@ body::-webkit-scrollbar-thumb{
 
 
 /* Loader */
-
-span {
-    align-items: center;
-}
-
 .center {
     display: flex;
     align-items: center;
@@ -358,7 +353,6 @@ span {
   bottom: 0;
   border-radius: 20px 20px 0 0;
   animation: lqb 5s linear infinite;
-  align-items: center;
 }
 @keyframes lqt {
   0%, 100% {

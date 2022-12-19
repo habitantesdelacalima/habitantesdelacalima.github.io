@@ -12,3 +12,6 @@
         menu.classList.remove('nav_link--show');
     });
 })();
+
+const centrar = document.querySelector('#canvases');
+centrar.classList.add('center');
