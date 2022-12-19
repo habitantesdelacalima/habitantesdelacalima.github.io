@@ -1,5 +1,4 @@
-const centrar = document.querySelector('#canvases');
-centrar.classList.add('center');
+const centrar = document.querySelector('.center');
 centrar.innerHTML = '<span class="loader"></span>';
 
 var url = '/Libros/eloisa/CaballoFinal.pdf';
@@ -59,5 +58,6 @@ pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
     }
 
     centrar.classList.remove('center');
+    centrar.classList.add('nocenter');
     });
 
