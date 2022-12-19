@@ -544,7 +544,6 @@ body::-webkit-scrollbar-thumb{
     }
     
     #center {
-        color: #fff;
         display: flex;
         align-items: center;
         justify-content: center;
