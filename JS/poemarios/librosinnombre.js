@@ -1,5 +1,7 @@
-const centrar = document.querySelector('.center');
-centrar.innerHTML = '<span class="loader"></span>';
+if (innerWidth < 601) {
+    const centrar = document.querySelector('.center');
+    centrar.innerHTML = '<span class="loader"></span>';
+}
 
 var url = '/Libros/bryan/Libro sin nombre.pdf';
 var pdfjsLib = window['pdfjs-dist/build/pdf'];
