@@ -313,7 +313,6 @@ body::-webkit-scrollbar-thumb{
 
 /* Loader */
 .center {
-    display: flex;
     align-items: center;
 }
 
