@@ -501,7 +501,7 @@ body::-webkit-scrollbar-thumb{
 
     #canvases canvas {
         margin: 20px auto;
-        display: block;
+        display: flex;
     }
     
     .hero_paragraph{
