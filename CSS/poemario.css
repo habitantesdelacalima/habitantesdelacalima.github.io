@@ -545,13 +545,13 @@ body::-webkit-scrollbar-thumb{
         align-items: center;
     }
     
-    #center {
+    .center {
         display: flex;
         align-items: center;
         justify-content: center;
     }
 
-    .center {
+    .nocenter {
         display: none;
     }
 }
