@@ -321,6 +321,7 @@ span {
 }
 
 .center {
+    display: flex;
     align-items: center;
 }
 
@@ -336,7 +337,6 @@ span {
   background-size: 2px 40px;
   background-position: 50% 0px;
   animation: spinx 5s linear infinite;
-  align-items: center;
 }
 .loader:before, .loader:after {
   content: "";
@@ -352,7 +352,6 @@ span {
   background-repeat: no-repeat;
   background-position: 0 0px;
   animation: lqt 5s linear infinite;
-  align-items: center;
 }
 .loader:after {
   top: auto;
