@@ -184,12 +184,11 @@ body::-webkit-scrollbar-thumb{
 .asd{
     color: #fff;
     display: grid;
-    gap: 1em;
+    text-align: center;
     justify-items: center;
     overflow: hidden;
     margin: 0 auto;
     text-decoration: none;
-    justify-self: center;
 }
 
 
@@ -244,6 +243,11 @@ body::-webkit-scrollbar-thumb{
 .main{
     margin-top: 2em;
     width: 100%;
+}
+
+.habitantes {
+    padding: 0;
+    padding-top: 3rem;
 }
 
 .habitante{
