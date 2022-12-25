@@ -230,6 +230,7 @@ body::-webkit-scrollbar-thumb{
     justify-content: center;
     margin: auto;
     margin-bottom: 3em;
+    border-radius: 1rem;
 }
 
 .visitantes_container{
