@@ -540,7 +540,7 @@ i{
         rotate: 0deg;
     }
     100% {
-        top: calc(240vh);
+        top: calc(200vh);
         rotate: 540deg;
     }}
 
@@ -556,7 +556,7 @@ j{
 
 @keyframes brasas {
     0% {
-        top: 240vh;
+        top: 200vh;
         rotate: 0deg;
     }
     100% {
@@ -576,7 +576,7 @@ k{
 
 @keyframes brasaskl {
     0% {
-        top: 240vh;
+        top: 200vh;
         rotate: 0deg;
     }
     100% {
