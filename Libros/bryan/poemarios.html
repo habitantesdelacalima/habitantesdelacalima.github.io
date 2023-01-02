@@ -8,6 +8,7 @@
     <link rel="shortcut icon" href="/Images/icono-modified.png" type="image/x-icon">
     <link rel="stylesheet" href="/CSS/normalize.css">
     <link rel="stylesheet" href="/CSS/poemario.css">
+    <link rel="stylesheet" href="/CSS/fogata.css">
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.2.2/pdf.min.js"></script>
 </head>
 <body>
@@ -69,6 +70,155 @@
             <div id="canvases"></div>
         </div>
         </div>
+
+
+        <!-- Fogata -->
+    <div id="fogata">
+        <div class="stage">
+            <div class="campfire">
+                <div class="sparks">
+                    <div class="spark"></div>
+                    <div class="spark"></div>
+                    <div class="spark"></div>
+                    <div class="spark"></div>
+                    <div class="spark"></div>
+                    <div class="spark"></div>
+                    <div class="spark"></div>
+                    <div class="spark"></div>
+                </div>
+                <div class="logs">
+                    <div class="log">
+                        <div class="streak"></div>
+                        <div class="streak"></div>
+                        <div class="streak"></div>
+                        <div class="streak"></div>
+                        <div class="streak"></div>
+                        <div class="streak"></div>
+                        <div class="streak"></div>
+                        <div class="streak"></div>
+                        <div class="streak"></div>
+                        <div class="streak"></div>
+                    </div>
+                    <div class="log">
+                        <div class="streak"></div>
+                        <div class="streak"></div>
+                        <div class="streak"></div>
+                        <div class="streak"></div>
+                        <div class="streak"></div>
+                        <div class="streak"></div>
+                        <div class="streak"></div>
+                        <div class="streak"></div>
+                        <div class="streak"></div>
+                        <div class="streak"></div>
+                    </div>
+                    <div class="log">
+                        <div class="streak"></div>
+                        <div class="streak"></div>
+                        <div class="streak"></div>
+                        <div class="streak"></div>
+                        <div class="streak"></div>
+                        <div class="streak"></div>
+                        <div class="streak"></div>
+                        <div class="streak"></div>
+                        <div class="streak"></div>
+                        <div class="streak"></div>
+                    </div>
+                    <div class="log">
+                        <div class="streak"></div>
+                        <div class="streak"></div>
+                        <div class="streak"></div>
+                        <div class="streak"></div>
+                        <div class="streak"></div>
+                        <div class="streak"></div>
+                        <div class="streak"></div>
+                        <div class="streak"></div>
+                        <div class="streak"></div>
+                        <div class="streak"></div>
+                    </div>
+                    <div class="log">
+                        <div class="streak"></div>
+                        <div class="streak"></div>
+                        <div class="streak"></div>
+                        <div class="streak"></div>
+                        <div class="streak"></div>
+                        <div class="streak"></div>
+                        <div class="streak"></div>
+                        <div class="streak"></div>
+                        <div class="streak"></div>
+                        <div class="streak"></div>
+                    </div>
+                    <div class="log">
+                        <div class="streak"></div>
+                        <div class="streak"></div>
+                        <div class="streak"></div>
+                        <div class="streak"></div>
+                        <div class="streak"></div>
+                        <div class="streak"></div>
+                        <div class="streak"></div>
+                        <div class="streak"></div>
+                        <div class="streak"></div>
+                        <div class="streak"></div>
+                    </div>
+                    <div class="log">
+                        <div class="streak"></div>
+                        <div class="streak"></div>
+                        <div class="streak"></div>
+                        <div class="streak"></div>
+                        <div class="streak"></div>
+                        <div class="streak"></div>
+                        <div class="streak"></div>
+                        <div class="streak"></div>
+                        <div class="streak"></div>
+                        <div class="streak"></div>
+                    </div>
+                </div>
+                
+                <div class="sticks">
+                    <div class="stick"></div>
+                    <div class="stick"></div>
+                    <div class="stick"></div>
+                    <div class="stick"></div>
+                </div>
+                <div class="fire">
+                    <div class="fire_red">
+                        <div class="flame"></div>
+                        <div class="flame"></div>
+                        <div class="flame"></div>
+                        <div class="flame"></div>
+                        <div class="flame"></div>
+                        <div class="flame"></div>
+                        <div class="flame"></div>
+                    </div>
+                    <div class="fire_orange">
+                        <div class="flame"></div>
+                        <div class="flame"></div>
+                        <div class="flame"></div>
+                        <div class="flame"></div>
+                        <div class="flame"></div>
+                        <div class="flame"></div>
+                        <div class="flame"></div>
+                    </div>
+                    <div class="fire_yellow">
+                        <div class="flame"></div>
+                        <div class="flame"></div>
+                        <div class="flame"></div>
+                        <div class="flame"></div>
+                        <div class="flame"></div>
+                    </div>
+                    <div class="fire_white">
+                        <div class="flame"></div>
+                        <div class="flame"></div>
+                        <div class="flame"></div>
+                        <div class="flame"></div>
+                        <div class="flame"></div>
+                        <div class="flame"></div>
+                        <div class="flame"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
     </body>
 
     <footer class="footer">
@@ -115,6 +265,7 @@
             <h3 class="footer_copyright">Derechos reservados &copy; Habitantes de la Calima</h3>
         </section>
     </footer>
+    
 
     <!-- JS para hacer el efecto de cambio -->
     <script type="text/javascript">
@@ -131,34 +282,82 @@
             document.getElementById('boton_sequia').style.display = 'block';
         }
     </script>
-    
-    <style>
-        .loaderbtf {
-  position: relative;
-  width: 100px;
-  height: 100px;
+
+    <script type="text/javascript">
+        grayscale(n)
+  if (n >= 0)
+    rgba(255, 255, 255, n / 100)
+  else
+    rgba(0, 0, 0, n / 100)
+    </script>
+
+
+   
+    <!-- <style>
+        i{
+    position: absolute;
+    background: rgb(90, 90, 90);
+    border-radius: 50%;
+    box-shadow: 4 4px 4px rgb(10, 10, 10);
+    top: -10px;
+    animation: cenizas linear infinite;   
+    overflow: hidden;    
 }
 
-.loaderbtf:before , .loaderbtf:after{
-  content: '';
-  border-radius: 50%;
-  position: absolute;
-  inset: 0;
-  box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.3) inset;
-}
-.loaderbtf:after {
-  box-shadow: 0 2px 0 #FF3D00 inset;
-  animation: rotate 2s linear infinite;
+@keyframes cenizas {
+    0% {
+        top: -10%;
+        rotate: 0deg;
+    }
+    100% {
+        top: 150vh;
+        rotate: 540deg;
+    }}
+
+j{
+    position: absolute;
+    background: rgb(180, 2, 2);
+    border-radius: 50%;
+    box-shadow: 4 4px 4px rgb(10, 10, 10);
+    top: -10px;
+    animation: brasas linear infinite;   
+    overflow: hidden;    
 }
 
-@keyframes rotate {
-  0% {  transform: rotate(0)}
-  100% { transform: rotate(360deg)}
-}
-    </style>
+@keyframes brasas {
+    0% {
+        top: 150vh;
+        rotate: 0deg;
+    }
+    100% {
+        top: 10em;
+        rotate: 1800deg;
+}}
 
+k{
+    position: absolute;
+    background: rgb(180, 2, 2);
+    border-radius: 50%;
+    box-shadow: 4 4px 4px rgb(10, 10, 10);
+    top: -10px;
+    animation: brasaskl linear infinite;   
+    overflow: hidden;    
+}
+
+@keyframes brasaskl {
+    0% {
+        top: 150vh;
+        rotate: 0deg;
+    }
+    100% {
+        background: #ffe600;
+        top: 10em;
+        rotate: 1800deg;
+}}
+    </style> -->
 
     <script src="/JS/poemarios/librosinnombre.js"></script>
     <script src="/JS/menu.js"></script>
+    <script src="/JS/cenizas.js"></script>
 </body>
 </html>
