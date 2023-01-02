@@ -777,7 +777,18 @@ body::-webkit-scrollbar-thumb{
         padding-bottom: 40px;
     }
     
-
+@keyframes brasaskl {
+    0% {
+        top: 340em;
+        rotate: 0deg;
+    }
+}
+@keyframes brasas {
+    0% {
+        top: 340em;
+        rotate: 0deg;
+    }
+}
 }
 
 
