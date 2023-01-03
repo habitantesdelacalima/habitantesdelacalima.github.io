@@ -1,5 +1,58 @@
+:root{
+    --padding-container: 100px 0;
+    --color-title: #fff;
+}
+
+.container_test{
+    width: 100%;
+    max-width: 2400px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: var(--padding-container);
+}
+
+
 #fogata {
     background: radial-gradient(#550d39, #270537);
+}
+
+.test {
+    margin-top: 10rem;
+    position: absolute;
+    z-index: 1000;
+}
+.poemario_icons_test{
+    color: #fff;
+    display: grid;
+    gap: 1em;
+    justify-self: center;
+    width: 260px;
+    overflow: hidden;
+    margin-top: 25rem;
+    position: absolute;
+    z-index: 1000;
+}
+
+#fogatatest {
+    background: radial-gradient(#550d39, #270537);
+}
+.hero_title_habitantes_test {
+    font-size: rem;
+    text-shadow: 10px 10px 20px rgba(63, 43, 36, 0.986);
+    z-index: 100;
+}
+.hero_paragraph_test{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    z-index: 100;
+}
+.footer_links_test{
+    color: #fff;
+    text-decoration: none;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 
@@ -18,6 +71,7 @@
     height: 600px;
     transform-origin: center center;
     transform: scale(0.75);
+    margin-bottom: 10rem;
 }
 
 
