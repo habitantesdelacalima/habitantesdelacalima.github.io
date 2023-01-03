@@ -3,7 +3,7 @@
     --color-title: #fff;
 }
 
-.container_test{
+.fogata_container{
     width: 100%;
     max-width: 2400px;
     margin: 0 auto;
@@ -11,17 +11,34 @@
     padding: var(--padding-container);
 }
 
-
 #fogata {
-    background: radial-gradient(#550d39, #270537);
+    height: 70vh;
+    width: 100vw;
+}
+.fogata_title {
+    text-shadow: 10px 10px 20px rgba(63, 43, 36, 0.986);
+    z-index: 100;
+}
+.fogata_paragraph{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    z-index: 100;
+}
+.fogata_links{
+    color: #fff;
+    text-decoration: none;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.test {
+.fogata_article {
     margin-top: 10rem;
     position: absolute;
     z-index: 1000;
 }
-.poemario_icons_test{
+/* .poemario_icons_fogata{
     color: #fff;
     display: grid;
     gap: 1em;
@@ -31,36 +48,12 @@
     margin-top: 25rem;
     position: absolute;
     z-index: 1000;
-}
-
-#fogatatest {
-    background: radial-gradient(#550d39, #270537);
-    height: 80vh;
-    width: 100vw;
-}
-.hero_title_habitantes_test {
-    font-size: rem;
-    text-shadow: 10px 10px 20px rgba(63, 43, 36, 0.986);
-    z-index: 100;
-}
-.hero_paragraph_test{
-    margin-top: 25px;
-    margin-bottom: 25px;
-    z-index: 100;
-}
-.footer_links_test{
-    color: #fff;
-    text-decoration: none;
-    z-index: 100;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+} */
 
 
 .stage {
     width: 100vw;
-    height: 80vh;
+    height: 60vh;
     display: flex;
     align-items: center;
     justify-content: center;
