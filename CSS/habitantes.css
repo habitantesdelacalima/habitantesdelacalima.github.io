@@ -323,199 +323,6 @@ body::-webkit-scrollbar-thumb{
 
 
 
-/* Media queries */
-
-@media (max-width:1100px){
-    .nav_menu{
-        display: block;
-        width: 70px;
-        height: 70px;
-        position: fixed;
-        top: 2em;
-        right: 0em;
-    }
-
-    .nav_link--menu{
-        position: fixed;
-        background-color: #000000ec;
-        top: 0;
-        left: 10%;
-        height: 100%;
-        width: 80%;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        align-items: center;
-        z-index: 100;
-        opacity: 0;
-        pointer-events: none;
-        transition: .7s opacity;
-        border-radius: 30px;
-    }
-
-    .nav_links{
-        background-color: #c04208ec;
-        box-shadow: 0 1px 8px rgba(175, 2, 2, 0.726), 0 6px 40px 5px #940000c0, 0 12px 50px 5px #770000a9;
-        border-radius: 7px;
-        padding: 3px;
-    }
-    .nav_links:hover{
-        background-color: #b10000;
-        box-shadow: 0 1px 10px 4px rgba(255, 1, 1, 0.61), 0 1px 20px 5px #ff3c0077, 0 1px 30px 7px #ffffff8f;
-        border-radius: 7px;
-        padding: 3px;
-    }
-
-    .nav_link--show{
-        --show: block;
-        opacity: 1;
-        pointer-events: unset;
-    }
-
-    .nav_close{
-        position: absolute;
-        top: 30px;
-        right: 30px;
-        width: 30px;
-        cursor: pointer;
-    }
-}
-
-@media (max-width:800px){
-
-    .hero_title{
-        font-size: 2.5rem;
-    }
-
-    .about_main{
-        gap: 2em;
-    }
-
-    .knowledge_container{
-        grid-template-columns: 1fr;
-        grid-template-rows: max-content 1fr;
-        gap: 3em;
-        text-align: center;
-    }
-    
-    .knowledge_picture{
-        grid-row: 1/2;
-        justify-self: center;
-    }
-
-    .libros_container{
-        grid-template-columns: 30px 1fr 30px;
-
-    }
-
-    .libros_body{
-        grid-template-columns: 1fr;
-        grid-template-rows: max-content max-content;
-        gap: 3em;
-        justify-items: center;
-    }
-
-    .libros_img{
-        width: 200px;
-        height: 200px;
-    }
-
-    .footer_container{
-        flex-wrap: wrap;
-    }
-
-    .footer_links{
-        padding: 3px;
-    }
-
-    .nav--footer{
-        width: 100%;
-        justify-items: center;
-    }
-
-    .nav_link--footer{
-        width: 100%;
-        justify-content: space-between;
-        margin: 0;
-    }
-
-    .footer_form{
-        width: 100%;
-        justify-content: space-evenly;
-    }
-
-    .footer_input{
-        flex: 1;
-    }
-}
-
-@media (max-width:600px){
-
-    .hero_title{
-        font-size: 2rem;
-    }
-    
-    .hero_paragraph{
-        font-size: 1rem;
-    }
-
-    .subtitle{
-        font-size: 1.rem;
-    }
-
-    .libros{
-        --padding-container: 60px 0;
-    }
-
-    .libros_container{
-        grid-template-columns: 28px 1fr 28px;
-        gap: .9em;
-    }
-
-    .libros_arrow{
-        width: 100%;
-    }
-
-    .libros_ambiente{
-        margin-top: 15px;        
-    }
-    
-    .question_title{
-        font-size: 1rem;
-    }
-
-    .footer_title{
-        justify-self: start;
-        margin-bottom: 15px;
-    }
-
-    .footer_inputs{
-        flex-wrap: wrap;
-    }
-
-    .footer_input{
-        flex-basis: 100%;
-        margin: 0;
-        margin-bottom: 16px;
-    }
-    
-    .footer_sumit{
-        margin-right: auto;
-        margin-left: 0;
-    }
-    
-    .nav_link--footer{
-        justify-content: space-between;
-    }
-
-    .nav_link{
-        padding-bottom: 40px;
-    }
-    
-
-}
-
-
 /* Cenizas */
 
 i{
@@ -1145,4 +952,210 @@ k{
         transform: scaleY(0) translateY(0);
         opacity: 0;
     }
+}
+
+
+    /* Media queries */
+
+@media (max-width:1100px){
+    .nav_menu{
+        display: block;
+        width: 70px;
+        height: 70px;
+        position: fixed;
+        top: 2em;
+        right: 0em;
+    }
+
+    .nav_link--menu{
+        position: fixed;
+        background-color: #000000ec;
+        top: 0;
+        left: 10%;
+        height: 100%;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        z-index: 100;
+        opacity: 0;
+        pointer-events: none;
+        transition: .7s opacity;
+        border-radius: 30px;
+    }
+
+    .nav_links{
+        background-color: #c04208ec;
+        box-shadow: 0 1px 8px rgba(175, 2, 2, 0.726), 0 6px 40px 5px #940000c0, 0 12px 50px 5px #770000a9;
+        border-radius: 7px;
+        padding: 3px;
+    }
+    .nav_links:hover{
+        background-color: #b10000;
+        box-shadow: 0 1px 10px 4px rgba(255, 1, 1, 0.61), 0 1px 20px 5px #ff3c0077, 0 1px 30px 7px #ffffff8f;
+        border-radius: 7px;
+        padding: 3px;
+    }
+
+    .nav_link--show{
+        --show: block;
+        opacity: 1;
+        pointer-events: unset;
+    }
+
+    .nav_close{
+        position: absolute;
+        top: 30px;
+        right: 30px;
+        width: 30px;
+        cursor: pointer;
+    }
+}
+
+@media (max-width:800px){
+
+    .hero_title{
+        font-size: 2.5rem;
+    }
+
+    .about_main{
+        gap: 2em;
+    }
+
+    .knowledge_container{
+        grid-template-columns: 1fr;
+        grid-template-rows: max-content 1fr;
+        gap: 3em;
+        text-align: center;
+    }
+    
+    .knowledge_picture{
+        grid-row: 1/2;
+        justify-self: center;
+    }
+
+    .libros_container{
+        grid-template-columns: 30px 1fr 30px;
+
+    }
+
+    .libros_body{
+        grid-template-columns: 1fr;
+        grid-template-rows: max-content max-content;
+        gap: 3em;
+        justify-items: center;
+    }
+
+    .libros_img{
+        width: 200px;
+        height: 200px;
+    }
+
+    .footer_container{
+        flex-wrap: wrap;
+    }
+
+    .footer_links{
+        padding: 3px;
+    }
+
+    .nav--footer{
+        width: 100%;
+        justify-items: center;
+    }
+
+    .nav_link--footer{
+        width: 100%;
+        justify-content: space-between;
+        margin: 0;
+    }
+
+    .footer_form{
+        width: 100%;
+        justify-content: space-evenly;
+    }
+
+    .footer_input{
+        flex: 1;
+    }
+}
+
+@media (max-width:600px){
+
+    .stage {
+        width: 100vw;
+        height: 50vh;
+        overflow: hidden;
+    }
+
+    .campfire {
+        width: 600px;
+        height: 600px;
+        transform: scale(0.45);
+        overflow: hidden;
+    }
+
+    .hero_title{
+        font-size: 2rem;
+    }
+    
+    .hero_paragraph{
+        font-size: 1rem;
+    }
+
+    .subtitle{
+        font-size: 1.rem;
+    }
+
+    .libros{
+        --padding-container: 60px 0;
+    }
+
+    .libros_container{
+        grid-template-columns: 28px 1fr 28px;
+        gap: .9em;
+    }
+
+    .libros_arrow{
+        width: 100%;
+    }
+
+    .libros_ambiente{
+        margin-top: 15px;        
+    }
+    
+    .question_title{
+        font-size: 1rem;
+    }
+
+    .footer_title{
+        justify-self: start;
+        margin-bottom: 15px;
+    }
+
+    .footer_inputs{
+        flex-wrap: wrap;
+    }
+
+    .footer_input{
+        flex-basis: 100%;
+        margin: 0;
+        margin-bottom: 16px;
+    }
+    
+    .footer_sumit{
+        margin-right: auto;
+        margin-left: 0;
+    }
+    
+    .nav_link--footer{
+        justify-content: space-between;
+    }
+
+    .nav_link{
+        padding-bottom: 40px;
+    }
+    
+
 }
