@@ -492,9 +492,12 @@ body::-webkit-scrollbar-thumb{
         font-size: 1rem;
     }
 
+    .marquee-container {
+        padding-top: 7rem;
+    }
+
     .marquee{
-        padding-left: 0em;
-        padding-right: 0em;
+        width: 80%;
     }
 
     .subtitle{
