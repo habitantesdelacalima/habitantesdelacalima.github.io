@@ -1,39 +1,39 @@
 const nav = document.querySelector('.nav');
 
 nav.innerHTML = `
-<div class="nav_logo">
-<a href="/index.html"><img src="/Images/Logo.jpg" class="logo"></a>
-</div>
+    <div class="nav_logo">
+        <a href="/index.html"><img src="/Images/Logo.jpg" class="logo"></a>
+    </div>
 
-<ul class="nav_link nav_link--menu">
-<li class="nav_items">
-    <a href="/index.html" class="nav_links">Inicio</a>
-</li>
-<li class="nav_items">
-    <a href="/habitantes/habitantes.html" class="nav_links">Habitantes</a>
-</li>
-<li class="nav_items">
-    <a href="/Libros/poemario.html" class="nav_links">Poemario</a>
-</li>
-<li class="nav_items">
-    <a href="/galeria.html" class="nav_links">Galería</a>
-</li>
-<li class="nav_items">
-    <a href="/postales.html" class="nav_links">Postales</a>
-</li>
-<li class="nav_items">
-    <a href="/tienda.html" class="nav_links">Tienda</a>
-</li>
-<li class="nav_items">
-    <a href="/contacto.html" class="nav_links">Contacto</a>
-</li>
+    <ul class="nav_link nav_link--menu">
+        <li class="nav_items">
+            <a href="/index.html" class="nav_links">Inicio</a>
+        </li>
+        <li class="nav_items">
+            <a href="/habitantes/habitantes.html" class="nav_links">Habitantes</a>
+        </li>
+        <li class="nav_items">
+            <a href="/Libros/poemario.html" class="nav_links">Poemario</a>
+        </li>
+        <li class="nav_items">
+            <a href="/galeria.html" class="nav_links">Galería</a>
+        </li>
+        <li class="nav_items">
+            <a href="/postales.html" class="nav_links">Postales</a>
+        </li>
+        <li class="nav_items">
+            <a href="/tienda.html" class="nav_links">Tienda</a>
+        </li>
+        <li class="nav_items">
+            <a href="/contacto.html" class="nav_links">Contacto</a>
+        </li>
 
-<img src="/Images/close.svg" alt="calima" class="nav_close">
-</ul>
+        <img src="/Images/close.svg" alt="calima" class="nav_close">
+    </ul>
 
-<div class="nav_menu">
-<img src="/Images/menu.svg" class="nav_img">
-</div>
+    <div class="nav_menu">
+        <img src="/Images/menu.svg" class="nav_img">
+    </div>
 `;
 
 const footer = document.querySelector('.footer');
