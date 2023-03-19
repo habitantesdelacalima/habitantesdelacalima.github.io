@@ -167,8 +167,8 @@
         background-color: #000000ec;
         top: 0;
         right: 0;
-        height: 60%;
-        width: 40%;
+        height: 24rem;
+        width: 12rem;
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
