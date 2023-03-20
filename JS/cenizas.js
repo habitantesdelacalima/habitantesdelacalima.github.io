@@ -23,7 +23,7 @@ const crearCenizas = () => {
 
     setTimeout(() => {
         pavesa.remove()
-    }, anima * 1000)};
+    }, anima * 700)};
 
 
 setInterval(crearCenizas, 200);
@@ -54,10 +54,10 @@ const crearBrasas = () => {
 
     setTimeout(() => {
         brasas.remove()
-    }, anima * 1000)};
+    }, anima * 700)};
 
 
-setInterval(crearBrasas, 200);
+setInterval(crearBrasas, 500);
 
 
 const poem = document.querySelector('body');
@@ -84,7 +84,7 @@ const crearBrasaskl = () => {
 
     setTimeout(() => {
         brasaskl.remove()
-    }, anima * 1000)};
+    }, anima * 100)};
 
 
-setInterval(crearBrasaskl, 800);
+setInterval(crearBrasaskl, 1000);

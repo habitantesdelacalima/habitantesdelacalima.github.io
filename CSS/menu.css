@@ -160,6 +160,7 @@
         position: fixed;
         top: 2em;
         right: 0em;
+        z-index: 90;
     }
 
     .nav_link--menu{
