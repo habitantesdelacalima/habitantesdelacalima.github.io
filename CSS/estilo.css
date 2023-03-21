@@ -76,13 +76,13 @@ body::-webkit-scrollbar-thumb{
 
 .hero_container{
     max-width: 800px;
-    --padding-container: 0;
     display: grid;
     grid-auto-rows: max-content;
-    align-content: center;
+    align-content: end;
     gap: lem;
-    padding-bottom: 80px;
-    text-align: center;   
+    text-align: center;
+    padding: 0;
+    height: 50vh;
 }
 
 .hero_title{
