@@ -75,6 +75,8 @@ body::-webkit-scrollbar-thumb{
  /* Hero container */
 
 .hero_container{
+    top: 6rem;
+    height: 40rem;
     max-width: 800px;
     display: grid;
     grid-auto-rows: max-content;

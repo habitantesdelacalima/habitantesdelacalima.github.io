@@ -36,52 +36,52 @@ nav.innerHTML = `
     </div>
 `;
 
-const footer = document.querySelector('.footer');
+// const footer = document.querySelector('.footer');
 
-footer.innerHTML = `
-<section class="footer_container container">
-            <nav class="nav nav--footer">
-                <h2 class="footer_title">Habitantes de la Calima</h2>
-                <ul class="nav_link nav_link--footer">
-                    <li class="nav_items">
-                    <a href="/index.html" class="footer_links">Inicio</a>
-                    </li>
-                    <li class="nav_items">
-                        <a href="/habitantes/habitantes/habitantes.html" class="footer_links">Habitantes</a>
-                    </li>
-                    <li class="nav_items">
-                        <a href="/Libros/poemario.html" class="footer_links">Poemario</a>
-                    </li>
-                    <li class="nav_items">
-                        <a href="/galeria.html" class="footer_links">Galería</a>
-                    </li>
-                    <li class="nav_items">
-                        <a href="/postales.html" class="footer_links">Postales</a>
-                    </li>
-                    <li class="nav_items">
-                        <a href="/tienda.html" class="footer_links">Tienda</a>
-                    </li>
-                </ul>
-            </nav>
-            <form class="footer_form" action="https://formspree.io/f/mzbwkvqv" method="POST">
-                <h2 class="footer_postales">Recibe las postales de Calima</h2>
-                <div class="footer_inputs">
-                    <input type="email" placeholder="Email:" class="footer_input" name="email">
-                    <input type="submit" value="Únete" class="footer_sumit cta">
-                </div>
-            </form>
-        </section>
+// footer.innerHTML = `
+// <section class="footer_container container">
+//             <nav class="nav nav--footer">
+//                 <h2 class="footer_title">Habitantes de la Calima</h2>
+//                 <ul class="nav_link nav_link--footer">
+//                     <li class="nav_items">
+//                     <a href="/index.html" class="footer_links">Inicio</a>
+//                     </li>
+//                     <li class="nav_items">
+//                         <a href="/habitantes/habitantes/habitantes.html" class="footer_links">Habitantes</a>
+//                     </li>
+//                     <li class="nav_items">
+//                         <a href="/Libros/poemario.html" class="footer_links">Poemario</a>
+//                     </li>
+//                     <li class="nav_items">
+//                         <a href="/galeria.html" class="footer_links">Galería</a>
+//                     </li>
+//                     <li class="nav_items">
+//                         <a href="/postales.html" class="footer_links">Postales</a>
+//                     </li>
+//                     <li class="nav_items">
+//                         <a href="/tienda.html" class="footer_links">Tienda</a>
+//                     </li>
+//                 </ul>
+//             </nav>
+//             <form class="footer_form" action="https://formspree.io/f/mzbwkvqv" method="POST">
+//                 <h2 class="footer_postales">Recibe las postales de Calima</h2>
+//                 <div class="footer_inputs">
+//                     <input type="email" placeholder="Email:" class="footer_input" name="email">
+//                     <input type="submit" value="Únete" class="footer_sumit cta">
+//                 </div>
+//             </form>
+//         </section>
 
-        <section class="footer_copy container">
-            <div id="footer_social">
-                <a href="https://www.facebook.com/habitantesdelacalima" class="footer_icons"><img src="/Images/facebook.svg" class="footer_img"></a>
-                <a href="https://www.instagram.com/habitantesdelacalima/" class="footer_icons"><img src="/Images/instagram.svg" class="footer_img"></a>
-                <a href="mailto:habitantesdelacalima@gmail.com" class="footer_icons"><img src="/Images/gmail.svg" class="footer_img"></a>
-            </div>
+//         <section class="footer_copy container">
+//             <div id="footer_social">
+//                 <a href="https://www.facebook.com/habitantesdelacalima" class="footer_icons"><img src="/Images/facebook.svg" class="footer_img"></a>
+//                 <a href="https://www.instagram.com/habitantesdelacalima/" class="footer_icons"><img src="/Images/instagram.svg" class="footer_img"></a>
+//                 <a href="mailto:habitantesdelacalima@gmail.com" class="footer_icons"><img src="/Images/gmail.svg" class="footer_img"></a>
+//             </div>
 
-            <h3 class="footer_copyright">Derechos reservados &copy; Habitantes de la Calima</h3>
-        </section>
-`;
+//             <h3 class="footer_copyright">Derechos reservados &copy; Habitantes de la Calima</h3>
+//         </section>
+// `;
 
 
 
